@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ee710a30-50d9-4074-800f-a0b2e8e0d926" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/actuality/Actuality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/actuality/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/book/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/book/BookQuantity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/book/OrderLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/book/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/event/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/event/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/livraison/Livraison.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/reclamation/FeedBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/user/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/user/RoleName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/CRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/actualityServices/ActualityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/actualityServices/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/BookQuantityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/OrderLineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/OrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/EventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/livraisonServices/LivraisonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/reclamationServices/FeedbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/userServices/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/userServices/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/util/DbConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/hello-view.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2atwDP8uilfHDkasGu2kPmM9QNO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/LivreBook/lib/mysql-connector-j-8.0.31.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\LivreBook\src\main\java\com\example\livrebook" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.livrebook" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee710a30-50d9-4074-800f-a0b2e8e0d926" name="Changes" comment="" />
+      <created>1705151064718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705151064718</updated>
+      <workItem from="1705151065757" duration="249000" />
+      <workItem from="1705151322932" duration="3966000" />
+      <workItem from="1705158202616" duration="272000" />
+      <workItem from="1705158491095" duration="670000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
