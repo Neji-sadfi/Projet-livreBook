@@ -5,14 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee710a30-50d9-4074-800f-a0b2e8e0d926" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/delivery/DeliveryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/delivery/DeliveryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/delivery/DeliveryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/delivery/DeliveryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/Delivery.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/Delivery.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/DeliveryStylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/DeliveryStylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,15 +45,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DeliveryTest.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "Application.MainClass.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Ala",
+    "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/user/IdeaProjects/LivreBook/lib/mysql-connector-j-8.0.31.jar",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -54,6 +74,14 @@
       <recent name="com.example.livrebook" />
     </key>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-jbr-17.0.9-f644763e9732-163ff1ef" />
+        <option value="jdk-17.0.9-jbr-17.0.9-f644763e9732-e10f1064" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,6 +94,9 @@
       <workItem from="1705151322932" duration="3966000" />
       <workItem from="1705158202616" duration="272000" />
       <workItem from="1705158491095" duration="2738000" />
+      <workItem from="1705521848116" duration="2104000" />
+      <workItem from="1705653462930" duration="2286000" />
+      <workItem from="1705658764016" duration="2741000" />
     </task>
     <servers />
   </component>

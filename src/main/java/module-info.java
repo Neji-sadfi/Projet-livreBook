@@ -1,5 +1,6 @@
 module com.example.livrebook {
     requires javafx.controls;
+    requires javafx.graphics;
     requires javafx.fxml;
 
     requires org.controlsfx.controls;
@@ -13,5 +14,8 @@ module com.example.livrebook {
     opens com.example.livrebook.gui to javafx.fxml;
     exports com.example.livrebook.test;
     opens com.example.livrebook.test to javafx.fxml;
-    exports com.example.livrebook;
+    exports com.example.livrebook.gui.delivery;
+    opens com.example.livrebook.gui.delivery to javafx.fxml;
+    exports com.example.livrebook.test.delivery;
+//    exports com.example.livrebook;
 }

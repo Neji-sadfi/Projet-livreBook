@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
-
+<AnchorPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.livrebook.gui.delivery.DeliveryController">
+   <children>
+      <AnchorPane layoutX="22.0" layoutY="64.0" prefHeight="230.0" prefWidth="458.0" style="-fx-background-color: #0522;" stylesheets="@DeliveryStylesheet.css">
+         <children>
+            <TableView fx:id="_idTableView" layoutX="7.0" layoutY="8.0" onSort="#onDisplayDelivey" prefHeight="200.0" prefWidth="338.0" stylesheets="@DeliveryStylesheet.css">
+              <columns>
+                <TableColumn id="column-header" prefWidth="127.2000732421875" text="Status" />
+                <TableColumn minWidth="0.0" prefWidth="209.60001220703123" text="OrderBy" />
+              </columns>
+            </TableView>
+            <Button fx:id="_idAddButton" layoutX="377.0" layoutY="52.0" mnemonicParsing="false" onAction="#onAddDelivery" prefHeight="26.0" prefWidth="59.0" style="-fx-background-color: green; -fx-font-style: white;" stylesheets="@DeliveryStylesheet.css" text="Add" />
+            <Button fx:id="_idRemoveButton" layoutX="377.0" layoutY="89.0" mnemonicParsing="false" onAction="#onRemoveDelivery" style="-fx-background-color: red;" stylesheets="@DeliveryStylesheet.css" text="Remove" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="550.0" layoutY="64.0" prefHeight="302.0" prefWidth="194.0" style="-fx-background-color: #1213;" stylesheets="@DeliveryStylesheet.css">
+         <children>
+            <ListView fx:id="_idListeView" layoutX="5.0" layoutY="20.0" prefHeight="262.0" prefWidth="185.0" />
+         </children>
+      </AnchorPane>
+   </children>
 </AnchorPane>
