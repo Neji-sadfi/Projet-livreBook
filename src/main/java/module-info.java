@@ -17,5 +17,6 @@ module com.example.livrebook {
     exports com.example.livrebook.gui.delivery;
     opens com.example.livrebook.gui.delivery to javafx.fxml;
     exports com.example.livrebook.test.delivery;
-//    exports com.example.livrebook;
+
+
 }
