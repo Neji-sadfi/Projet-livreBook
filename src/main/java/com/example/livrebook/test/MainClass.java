@@ -1,22 +1,34 @@
 package com.example.livrebook.test;
-import com.google.zxing.BarcodeFormat;
-import com.google.zxing.MultiFormatWriter;
-import com.google.zxing.WriterException;
-import com.google.zxing.common.BitMatrix;
-import  com.google.zxing.client.j2se.*;
 
-import java.io.IOException;
-import java.nio.file.Paths;
 
+import com.example.livrebook.service.userServices.UserService;
+import com.example.livrebook.service.livraisonServices.LivraisonService;
+
+
+import java.sql.Date;
+import java.sql.SQLException;
 
 public class MainClass {
-    public static void main(String[] args) throws WriterException, IOException {
-        String data = "ahla bik fi jendouba ";
-        String path = "C:\\Users\\user\\Desktop\\QR-Code\\infybuzz.jpg";
-        BitMatrix matrix = new MultiFormatWriter()
-                .encode(data, BarcodeFormat.QR_CODE,500,500);
-          MatrixToImageWriter.writeToPath(matrix,"jpg", Paths.get(path));
-        System.out.println("Qr code successfully created");
-
+    public static void main(String[] args) {
+//        try {
+//            bs.insert(book);
+//            System.out.println("book inserted");
+//        } catch (SQLException e) {
+//            throw new RuntimeException(e);
+//        }
+//           User u1 = new User("Neji","Gherairi","Fekri.Makhlouf@Jouadi.tn");
+//        try {
+//            us.insert(u1);
+//            System.out.println("user inserted");
+//        } catch (SQLException e) {
+//            throw new RuntimeException(e);
+//        }
+//         User u2 = new User(1,"Neji","Gherairi","Fekri.Makhlouf@Jouadi.mallouki");
+//        try {
+//            us.update(u2);
+//            System.out.println("user updated");
+//        } catch (SQLException e) {
+//            throw new RuntimeException(e);
+//        }
     }
 }
