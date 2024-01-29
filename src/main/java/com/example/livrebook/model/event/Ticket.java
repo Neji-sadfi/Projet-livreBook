@@ -5,6 +5,10 @@ public class Ticket {
     private String QRCODE;
     private int price;
     private boolean isPayed;
+    private int idevent;
+
+
+
 
     public int getId() {
         return id;
@@ -30,6 +34,14 @@ public class Ticket {
         this.price = price;
     }
 
+    public int getIdevent() {
+        return idevent;
+    }
+
+    public void setIdevent(int idevent) {
+        this.idevent = idevent;
+    }
+
     public boolean isPayed() {
         return isPayed;
     }
@@ -41,17 +53,19 @@ public class Ticket {
     public Ticket() {
     }
 
-    public Ticket(int id, String QRCODE, int price, boolean isPayed) {
+    public Ticket(int id, String QRCODE, int price, boolean isPayed,int idevent) {
         this.id = id;
         this.QRCODE = QRCODE;
         this.price = price;
         this.isPayed = isPayed;
+        this.idevent=idevent;
     }
 
-    public Ticket(String QRCODE, int price, boolean isPayed) {
+    public Ticket(String QRCODE, int price, boolean isPayed, int idevent) {
         this.QRCODE = QRCODE;
         this.price = price;
         this.isPayed = isPayed;
+        this.idevent=idevent;
     }
 
     @Override
@@ -61,6 +75,7 @@ public class Ticket {
                 ", QRCODE='" + QRCODE + '\'' +
                 ", price=" + price +
                 ", isPayed=" + isPayed +
+                ", idevent=" + idevent +
                 '}';
     }
 }

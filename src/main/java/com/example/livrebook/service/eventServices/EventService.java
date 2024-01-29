@@ -17,9 +17,9 @@ public class EventService implements CRUD<Event> {
     }
     @Override
     public boolean insert(Event event) throws SQLException {
-        String req = "INSERT INTO event (id,title, adresse, description, picture, startDate, endDate) " +
+        String req = "INSERT INTO event (id,title, adresse, description, picture, startDate, endDate, nb_ticket) " +
                 "VALUES ('" + event.getId() + "','"  + event.getTitle() + "','" + event.getAdresse() + "','" + event.getDescription() +"','" + event.getPicture()
-                +"','" + event.getStartDate() +"','" + event.getEndDate() + "')";
+                +"','" + event.getStartDate() +"','" + event.getEndDate() +"','" + event.getNb_ticket() + "')";
 
 
         Statement st = cnx.createStatement();
@@ -38,6 +38,7 @@ public class EventService implements CRUD<Event> {
                 "picture='" + event.getPicture() + "', " +
                 "startDate='" + event.getStartDate() + "', " +
                 "endDate='" + event.getEndDate() + "' " +
+                "nb_ticket='" + event.getNb_ticket()+ "' " +
                 "WHERE id=" + event.getId();
 
         Statement st = cnx.createStatement();
@@ -74,6 +75,8 @@ public class EventService implements CRUD<Event> {
         ResultSet resultSet = st.executeQuery(req);
 
         while (resultSet.next()) {
+
+
             Event event = new Event();
             event.setId(resultSet.getInt("id"));
             event.setTitle(resultSet.getString("title"));
@@ -82,7 +85,7 @@ public class EventService implements CRUD<Event> {
             event.setPicture(resultSet.getString("picture"));
             event.setStartDate(resultSet.getDate("startDate"));
             event.setEndDate(resultSet.getDate("endDate"));
-
+            event.setNb_ticket(resultSet.getInt("nb_ticket"));
             // Assuming there is a proper constructor for List<Integer>
 
 

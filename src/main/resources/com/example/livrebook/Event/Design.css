@@ -1,0 +1,110 @@
+.bg-white{
+    -fx-background-color: #fff;
+    -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,.3),8,0,0,0);
+    -fx-background-radius:8px;
+}
+.bg-white:hover{
+    -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.5),8,0,0,0);
+}
+.image{
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+.transparent{
+     -fx-background-color: rgba(0,0,0,0);
+}
+.shadow{
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1),10,0,0,10);
+}
+/* Design.css */
+
+/* Apply styles to the VBox */
+VBox {
+    -fx-background-color: #f4f4f4; /* Background color */
+}
+
+/* Apply styles to the Label */
+
+
+/* Apply styles to the ScrollPane */
+ScrollPane {
+    -fx-background-color: #ffffff; /* Background color */
+}
+
+/* Apply styles to the HBox inside ScrollPane */
+#CardLayout {
+    -fx-spacing: 20; /* Spacing between children */
+}
+
+/* Apply styles to the children of HBox */
+#CardLayout > * {
+    -fx-background-color: #ffffff; /* Background color */
+    -fx-border-radius: 5; /* Border radius */
+    -fx-border-color: #ccc; /* Border color */
+    -fx-padding: 10; /* Padding */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 0); /* Drop shadow effect */
+}
+/* Design.css */
+
+/* Apply styles to the HBox */
+#box {
+    -fx-background-color: #ffffff; /* Background color */
+    -fx-background-radius: 15;
+    -fx-spacing: 15; /* Spacing between children */
+    -fx-padding: 10; /* Padding */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 0); /* Drop shadow effect */
+}
+
+/* Apply styles to the ImageView */
+#eventImage {
+    -fx-border-radius: 10; /* Border radius */
+}
+
+/* Apply styles to the VBox inside HBox */
+
+
+/* Apply styles to the Labels */
+Label {
+    -fx-text-fill: #333; /* Text color */
+}
+
+/* Apply styles to the Button */
+#btn_buy {
+    -fx-background-color: #8a8069; /* Background color */
+    -fx-text-fill: white; /* Text color */
+    -fx-font-size: 14; /* Font size */
+    -fx-font-weight: bold; /* Font weight */
+    -fx-padding: 8 15; /* Padding */
+    -fx-border-radius: 5; /* Border radius */
+}
+
+#btn_buy:hover {
+    -fx-background-color: #615a4a; /* Hover background color */
+}
+#btn_add, #btn_update, #btn_delete {
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+#searchId {
+    -fx-font-size: 14px;
+}
+
+#tvEvent {
+    -fx-table-cell-border-color: derive(-fx-control-inner-background, -9%);
+    -fx-table-header-border-color: derive(-fx-control-inner-background, -9%);
+}
+
+#tvEvent .column-header-background {
+    -fx-background-color: #4CAF50; /* Green */
+}
+
+#tvEvent .column-header, #tvEvent .table-cell {
+    -fx-border-color: derive(-fx-control-inner-background, -9%);
+    -fx-border-width: 1;
+}
+
+/* Add more styles based on your needs */
+
