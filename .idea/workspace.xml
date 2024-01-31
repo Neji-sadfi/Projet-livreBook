@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="ee710a30-50d9-4074-800f-a0b2e8e0d926" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/FeedController.java" afterDir="false" />
@@ -24,17 +25,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="CSS File" />
         <option value="FxmlFile" />
-        <option value="CSS File" />
+
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/resources/com/example/livrebook/chatbot_interface.fxml" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -59,6 +65,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+
     &quot;Application.DeliveryTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
@@ -82,6 +89,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -95,23 +103,79 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Fekri Hamdi\Desktop\Projet-livreBook\src\main\resources\com\example\livrebook" />
-    </key>
+      <recent name="C:\Users\user\Desktop\ProjetJava\Projet-livreBook\src\main\resources\com\example\livrebook\image" />
+
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\ProjetJava\Projet-livreBook\lib" />
+      <recent name="C:\Users\user\Desktop\ProjetJava\Projet-livreBook\src\main\resources\com\example\livrebook\image\images" />
       <recent name="C:\Users\user\IdeaProjects\LivreBook\src\main\java\com\example\livrebook" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.livrebook" />
     </key>
   </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.9-jbr-17.0.9-f644763e9732-163ff1ef" />
-        <option value="jdk-17.0.9-jbr-17.0.9-f644763e9732-e10f1064" />
-      </set>
-    </attachedChunks>
-  </component>
+  <component name="RunManager" selected="Application.EventApplication">
+    <configuration name="EventApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.livrebook.test.EventApplication" />
+      <module name="LivreBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.livrebook.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.livrebook.test.HelloApplication" />
+      <module name="LivreBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.livrebook.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.livrebook.test.MainClass" />
+      <module name="LivreBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.livrebook.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SideBareApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.livrebook.test.SideBareApplication" />
+      <module name="LivreBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.livrebook.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.EventApplication" />
+        <item itemvalue="Application.SideBareApplication" />
+      </list>
+    </recent_temporary>
+
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -124,14 +188,51 @@
       <workItem from="1705151322932" duration="3966000" />
       <workItem from="1705158202616" duration="272000" />
       <workItem from="1705158491095" duration="2738000" />
-      <workItem from="1705742665990" duration="4037000" />
-      <workItem from="1705521848116" duration="2104000" />
-      <workItem from="1705653462930" duration="2286000" />
-      <workItem from="1705658764016" duration="2741000" />
+      <workItem from="1705248210863" duration="4472000" />
+      <workItem from="1705520329152" duration="10067000" />
+      <workItem from="1705669377202" duration="691000" />
+      <workItem from="1705687683045" duration="2280000" />
+      <workItem from="1705695875798" duration="12431000" />
+      <workItem from="1705739795797" duration="6591000" />
+      <workItem from="1705754272310" duration="2284000" />
+      <workItem from="1705950950814" duration="7766000" />
+      <workItem from="1705959862363" duration="18109000" />
+      <workItem from="1706297431080" duration="12751000" />
+      <workItem from="1706398755006" duration="22044000" />
+      <workItem from="1706469169878" duration="4518000" />
+      <workItem from="1706473701274" duration="6881000" />
+      <workItem from="1706516301889" duration="1072000" />
+      <workItem from="1706518272613" duration="994000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dev" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
