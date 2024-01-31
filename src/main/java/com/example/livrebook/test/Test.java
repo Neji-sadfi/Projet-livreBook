@@ -1,6 +1,5 @@
 package com.example.livrebook.test;
 
-import com.example.livrebook.service.eventServices.EventService;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -21,7 +20,9 @@ public class Test  extends Application {
         }
 
         public static void main(String[] args) {
+
             launch(args);
+
         }
     }
 

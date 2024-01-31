@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="180.0" spacing="5.0" style="-fx-background-radius: 10;" stylesheets="@Design.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.livrebook.gui.event.EventC">
    <children>
       <ImageView fx:id="eventImage" fitHeight="209.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
@@ -29,7 +28,7 @@
                   <Font name="Berlin Sans FB" size="15.0" />
                </font>
             </Label>
-            <Button fx:id="btn_buy" mnemonicParsing="false" prefHeight="26.0" prefWidth="154.0" text="réserver" />
+            <Button fx:id="reserveButton" mnemonicParsing="false" prefHeight="26.0" prefWidth="154.0" styleClass="btn_buy" stylesheets="@Design.css" text="réserver" />
          </children>
       </VBox>
    </children>

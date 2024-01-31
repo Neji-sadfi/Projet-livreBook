@@ -39,7 +39,7 @@ public class TicketController implements Initializable {
     @FXML
     private Button btn_delete;
     @FXML
-    private TextField Ticket_isPayed;
+    private TextField ticket_isPayed;
 
     @FXML
     private Button btn_update;
@@ -78,6 +78,7 @@ public class TicketController implements Initializable {
             filterTickets(newValue);
         });
     }
+    @FXML
     void handleButtonAction(ActionEvent event) {
         if (event.getSource()==btn_add){
             insertRecord();
@@ -101,6 +102,8 @@ public class TicketController implements Initializable {
 
 
 
+
+
     public ObservableList<Ticket> getObservableTicketList() {
         return FXCollections.observableArrayList(getTicketList());
     }
@@ -116,14 +119,15 @@ public class TicketController implements Initializable {
             colPrice.setCellValueFactory(new PropertyValueFactory<>("price"));
             tvTicket.setItems(list);
             return list;
+
         }
 
 
     private void insertRecord() {
         try {
-            String req = "INSERT INTO ticket (QRCODE, idevent, isPayed, price) " +
-                    "VALUES ('" + ticket_QR.getText() + "','" + Ticket_idevent.getText() + "','"
-                    + Ticket_isPayed.getText() + "','" + ticket_Price.getText() + "')";
+            String req = "INSERT INTO ticket (QRCODE,price, isPayed, idevent ) " +
+                    "VALUES ('" + ticket_QR.getText() + "','" +ticket_Price.getText()+ "','"
+                    + ticket_isPayed.getText() + "','" + Ticket_idevent.getText()+ "')";
 
             executeQuery(req);
             showTickets();
@@ -133,11 +137,13 @@ public class TicketController implements Initializable {
     }
 
 
-    private void executeQuery(String req) {
+    private boolean executeQuery(String req) {
         try (Statement st = cnx.createStatement()) {
             st.executeUpdate(req);
+            return true;
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
+            return false;
         }
     }
 
@@ -146,12 +152,16 @@ public class TicketController implements Initializable {
         String req = "UPDATE ticket SET " +
                 "QRCODE='" + ticket_QR.getText() + "', " +
                 "idevent='" + Ticket_idevent.getText() + "', " +
-                "isPayed='" + "false" + "', " +
+                "isPayed='" + ticket_isPayed.getText() + "', " +
                 "price='" + ticket_Price.getText() + "' " +
-                "WHERE id=" + ticket_id.getText();
+                "WHERE id=" + mouseClicked();
 
-        executeQuery(req);
-        showTickets();
+        if (executeQuery(req)) {
+            showTickets();
+            showAlert(Alert.AlertType.INFORMATION, "Success", "Record updated successfully", null);
+        } else {
+            showAlert(Alert.AlertType.ERROR, "Error", "Failed to update record", null);
+        }
     }
 
     private void deleteRecord() {
@@ -164,10 +174,10 @@ public class TicketController implements Initializable {
         dialog.getDialogPane().getButtonTypes().addAll(okButton, cancelButton);
         Optional<ButtonType> result = dialog.showAndWait();
         if (result.isPresent() && result.get() == okButton) {
-            String id = ticket_id.getText();
+
 
             try {
-                ticketService.delete(Integer.parseInt(id));
+                ticketService.delete(mouseClicked());
                 showTickets();
             } catch (SQLException e) {
                 throw new RuntimeException(e);
@@ -175,18 +185,21 @@ public class TicketController implements Initializable {
         }
     }
 
-    public void mouseClicked(javafx.scene.input.MouseEvent event) {
+    public int mouseClicked() {
         Ticket t = tvTicket.getSelectionModel().getSelectedItem();
         if (t != null) {
             try {
                 int t_id = t.getId();
                 ticket_QR.setText(t.getQRCODE());
                 Ticket_idevent.setText(String.valueOf(t.getIdevent()));
+                ticket_isPayed.setText(String.valueOf(t.getIsPayed()));
                 ticket_Price.setText(String.valueOf(t.getPrice()));
+                return t.getId();
             } catch (Exception e) {
                 e.printStackTrace();
             }
         }
+        return 0;
     }
 
     private void filterTickets(String searchQuery) {
@@ -205,5 +218,15 @@ public class TicketController implements Initializable {
     private boolean containsIgnoreCase(String source, String query) {
         return source != null && source.toLowerCase().contains(query.toLowerCase());
     }
+    private void showAlert(Alert.AlertType alertType, String title, String header, String content) {
+        Alert alert = new Alert(alertType);
+        alert.setTitle(title);
+        alert.setHeaderText(header);
+        alert.setContentText(content);
+        alert.showAndWait();
+    }
+
+
+
 }
 

@@ -70,7 +70,7 @@ Label {
 }
 
 /* Apply styles to the Button */
-#btn_buy {
+.btn_buy {
     -fx-background-color: #8a8069; /* Background color */
     -fx-text-fill: white; /* Text color */
     -fx-font-size: 14; /* Font size */
@@ -79,11 +79,11 @@ Label {
     -fx-border-radius: 5; /* Border radius */
 }
 
-#btn_buy:hover {
+.btn_buy:hover {
     -fx-background-color: #615a4a; /* Hover background color */
 }
 #btn_add, #btn_update, #btn_delete {
-    -fx-background-color: #4CAF50; /* Green */
+    -fx-background-color: #8a8069; /* Green */
     -fx-text-fill: white;
     -fx-font-size: 14px;
 }
@@ -98,7 +98,7 @@ Label {
 }
 
 #tvEvent .column-header-background {
-    -fx-background-color: #4CAF50; /* Green */
+    -fx-background-color: #8a8069; /* Green */
 }
 
 #tvEvent .column-header, #tvEvent .table-cell {
@@ -107,4 +107,60 @@ Label {
 }
 
 /* Add more styles based on your needs */
+.event-description {
+    -fx-background-color: #f0f0f0; /* Background color */
+}
+
+.event-details-label {
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+}
+
+.attribute-label {
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+.attribute-value {
+    -fx-font-size: 14;
+}
+
+.image-view {
+    -fx-border-color: #cccccc; /* Border color */
+    -fx-border-width: 1;
+}
+
+/* styles.css */
+
+.event-description {
+    -fx-background-color: #f0f0f0;
+}
+
+.event-details {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1;
+    -fx-padding: 15;
+}
+
+.event-details-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.attribute-label {
+    -fx-font-weight: bold;
+    -fx-min-width: 100px;
+}
+
+.attribute-value {
+    -fx-min-width: 200px;
+}
+
+.image-view {
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1;
+}
+
+
 

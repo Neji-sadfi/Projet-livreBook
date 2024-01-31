@@ -2,22 +2,16 @@ package com.example.livrebook.gui.event;
 
 import com.example.livrebook.model.event.Event;
 import com.example.livrebook.service.eventServices.EventService;
-import javafx.animation.TranslateTransition;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.geometry.Insets;
-import javafx.scene.Node;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.util.Duration;
 
 import java.io.IOException;
 import java.net.URL;
-import java.sql.ClientInfoStatus;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Comparator;
@@ -49,12 +43,14 @@ public class ClientEventController implements Initializable {
                 CardController cardController = fxmlLoader.getController();
                 cardController.setData(event);
                 CardLayout.getChildren().add(cardBox);
+
             }
             for (Event event :recommended) {
                 FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/livrebook/Event/Event.fxml"));
                 VBox eventBox = fxmlLoader.load();
                 EventC eventC = fxmlLoader.getController();
                 eventC.setData(event);
+
                if (column ==4){
                    column =0;
                    ++row;
@@ -83,6 +79,8 @@ public class ClientEventController implements Initializable {
             throw new RuntimeException(e);
         }
     }
+
+
     private List<Event> events() {
         try {
             List<Event> allEvents = eventService.selectAll();

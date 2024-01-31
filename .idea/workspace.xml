@@ -4,48 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee710a30-50d9-4074-800f-a0b2e8e0d926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/SideBareController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/CardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/ClientEventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/EventC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/EventController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/EventApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/SideBareApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Card.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Client_event.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Design.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Event.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/event-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Side-bare.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/2019-03-BLOG-Whirlikids-2-700x300.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/9780226439785.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/backup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/book-festival-concept-little-girl-600nw-2182861533.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/book-festival-concept-young-woman-600nw-2183387573.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/burger.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/data.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/istockphoto-1162698015-612x612.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/setting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/user.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/event/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/event/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/event/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/event/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/EventService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/TicketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-    </list>
+    <list default="true" id="ee710a30-50d9-4074-800f-a0b2e8e0d926" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,26 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;tasnim&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/user/Desktop/ProjetJava/Projet-livreBook/src/main/java/com&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Downloads/JFoenix-master.zip&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "tastas",
+    "last_directory_selection": "C:/Users/user/Desktop/ProjetJava/Projet-livreBook/src/main/java/com",
+    "last_opened_file_path": "C:/Users/user/Downloads/JFoenix-master.zip",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\ProjetJava\Projet-livreBook\src\main\resources\com\example\livrebook\image" />

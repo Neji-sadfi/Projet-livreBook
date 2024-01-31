@@ -9,6 +9,8 @@ module com.example.livrebook {
     requires java.sql;
     requires com.google.zxing;
     requires com.google.zxing.javase;
+    requires itextpdf;
+    requires java.desktop;
 
     opens com.example.livrebook to javafx.fxml;
     exports com.example.livrebook.gui;

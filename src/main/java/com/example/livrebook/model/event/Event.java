@@ -1,7 +1,6 @@
 package com.example.livrebook.model.event;
 
 import java.util.Date;
-import java.util.List;
 
 public class Event {
     private int id ;
@@ -11,7 +10,7 @@ public class Event {
     private String picture;
     private Date startDate;
     private Date endDate;
-    private List<Ticket> Tickets;
+
     private int nb_ticket;
 
 
@@ -95,13 +94,7 @@ public class Event {
         this.endDate = endDate;
     }
 
-    public List<Ticket> getIdTickets() {
-        return Tickets;
-    }
 
-    public void setTickets(List<Ticket> Tickets) {
-        this.Tickets = Tickets;
-    }
 
     public int getNb_ticket() {
         return nb_ticket;

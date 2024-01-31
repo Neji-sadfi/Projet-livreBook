@@ -15,9 +15,9 @@
             <Image url="@../../../../../../../../../../Downloads/sidebar/src/sample/images/istockphoto-1162698015-612x612.jpg" />
          </image>
       </ImageView>
-      <VBox alignment="CENTER_LEFT" prefHeight="150.0" prefWidth="160.0" spacing="10.0">
+      <VBox alignment="CENTER_LEFT" prefHeight="150.0" prefWidth="160.0" spacing="10.0" style="-fx-background-radius: 15;" stylesheets="@Design.css">
          <children>
-            <Label fx:id="eventName" prefHeight="40.0" prefWidth="160.0" text="book club">
+            <Label fx:id="eventName" prefHeight="40.0" prefWidth="160.0" text="book club" >
                <font>
                   <Font name="Berlin Sans FB Bold" size="18.0" />
                </font>
@@ -32,7 +32,7 @@
                   <Font name="Berlin Sans FB" size="14.0" />
                </font>
             </Label>
-            <Button id="btn_buy" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" text="réserver" />
+            <Button id="btn_buy" fx:id="reserveButton" mnemonicParsing="false" prefHeight="30.0" prefWidth="140.0" styleClass="btn_buy" stylesheets="@Design.css" text="réserver" />
          </children>
       </VBox>
    </children>

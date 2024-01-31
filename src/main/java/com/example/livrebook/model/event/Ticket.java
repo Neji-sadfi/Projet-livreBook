@@ -4,7 +4,7 @@ public class Ticket {
     private int id;
     private String QRCODE;
     private int price;
-    private boolean isPayed;
+    private int isPayed;
     private int idevent;
 
 
@@ -42,18 +42,18 @@ public class Ticket {
         this.idevent = idevent;
     }
 
-    public boolean isPayed() {
+    public int getIsPayed() {
         return isPayed;
     }
 
-    public void setPayed(boolean payed) {
+    public void setIsPayed(int payed) {
         isPayed = payed;
     }
 
     public Ticket() {
     }
 
-    public Ticket(int id, String QRCODE, int price, boolean isPayed,int idevent) {
+    public Ticket(int id, String QRCODE, int price, int isPayed,int idevent) {
         this.id = id;
         this.QRCODE = QRCODE;
         this.price = price;
@@ -61,7 +61,7 @@ public class Ticket {
         this.idevent=idevent;
     }
 
-    public Ticket(String QRCODE, int price, boolean isPayed, int idevent) {
+    public Ticket(String QRCODE, int price, int isPayed, int idevent) {
         this.QRCODE = QRCODE;
         this.price = price;
         this.isPayed = isPayed;

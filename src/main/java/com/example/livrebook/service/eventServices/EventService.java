@@ -78,6 +78,7 @@ public class EventService implements CRUD<Event> {
 
 
             Event event = new Event();
+
             event.setId(resultSet.getInt("id"));
             event.setTitle(resultSet.getString("title"));
             event.setAdresse(resultSet.getString("adresse"));
@@ -96,6 +97,16 @@ public class EventService implements CRUD<Event> {
     }
 
 
+    public boolean updateTicket(Event event) throws SQLException {
+        int  nbTicket=event.getNb_ticket()-1;
+
+        String req = "UPDATE event SET " +
+                "nb_ticket='" + nbTicket + "' " +
+                "WHERE id=" + event.getId();
+
+        Statement st = cnx.createStatement();
+        return st.executeUpdate(req) == -1;
+    }
 
 
 }
