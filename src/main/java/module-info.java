@@ -1,5 +1,6 @@
 module com.example.livrebook {
     requires javafx.controls;
+    requires javafx.graphics;
     requires javafx.fxml;
 
     requires org.controlsfx.controls;
@@ -22,8 +23,5 @@ module com.example.livrebook {
     opens com.example.livrebook.gui.event to javafx.fxml;
     opens com.example.livrebook.model.event to javafx.base;
 
-    // Other module configurations
 
-
-//exports com.example.livrebook;
 }
