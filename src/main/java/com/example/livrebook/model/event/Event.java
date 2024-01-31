@@ -10,32 +10,35 @@ public class Event {
     private String picture;
     private Date startDate;
     private Date endDate;
+<<<<<<< HEAD
 
     private int nb_ticket;
+=======
+    private List<Integer> idTickets;
+>>>>>>> 6174e16e975e09bbc1059011add929c71cbeac49
 
-
-    public Event(String title, String adresse, String description, String picture, Date startDate, Date endDate, int nb_ticket) {
+    public Event(int id, String title, String adresse, String description, String picture, Date startDate, Date endDate, List<Integer> idTickets) {
+        this.id = id;
         this.title = title;
         this.adresse = adresse;
         this.description = description;
         this.picture = picture;
         this.startDate = startDate;
         this.endDate = endDate;
-       this.nb_ticket=nb_ticket;
-    }
-    public Event(int id ,String title, String adresse, String description, String picture, Date startDate, Date endDate) {
-        this.id=id;
-        this.title = title;
-        this.adresse = adresse;
-        this.description = description;
-        this.picture = picture;
-        this.startDate = startDate;
-        this.endDate = endDate;
-
+        this.idTickets = idTickets;
     }
 
     public Event() {
+    }
 
+    public Event(String title, String adresse, String description, String picture, Date startDate, Date endDate, List<Integer> idTickets) {
+        this.title = title;
+        this.adresse = adresse;
+        this.description = description;
+        this.picture = picture;
+        this.startDate = startDate;
+        this.endDate = endDate;
+        this.idTickets = idTickets;
     }
 
     public int getId() {
@@ -94,6 +97,7 @@ public class Event {
         this.endDate = endDate;
     }
 
+<<<<<<< HEAD
 
 
     public int getNb_ticket() {
@@ -102,6 +106,14 @@ public class Event {
 
     public void setNb_ticket(int nb_ticket) {
         this.nb_ticket = nb_ticket;
+=======
+    public List<Integer> getIdTickets() {
+        return idTickets;
+    }
+
+    public void setIdTickets(List<Integer> idTickets) {
+        this.idTickets = idTickets;
+>>>>>>> 6174e16e975e09bbc1059011add929c71cbeac49
     }
 
     @Override
@@ -114,9 +126,7 @@ public class Event {
                 ", picture='" + picture + '\'' +
                 ", startDate=" + startDate +
                 ", endDate=" + endDate +
-                ", nombre de Tickets=" + nb_ticket +
+                ", idTickets=" + idTickets +
                 '}';
     }
-
-
 }

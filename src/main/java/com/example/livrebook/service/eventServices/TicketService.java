@@ -20,8 +20,13 @@ public class TicketService implements CRUD<Ticket> {
     }
     @Override
     public boolean insert(Ticket ticket) throws SQLException {
+<<<<<<< HEAD
         String req = "INSERT INTO ticket ( QRCODE, price, isPayed,idevent) " +
                 "VALUES ('" + ticket.getQRCODE() + "','" + ticket.getPrice()+ "','" + ticket.getIsPayed() + "','" + ticket.getIdevent()+ "')";
+=======
+        String req = "INSERT INTO ticket ( QRCODE, price, isPayed) " +
+                "VALUES ('" + ticket.getQRCODE() + "','" + ticket.getPrice()+ "','" + ticket.isPayed() + "')";
+>>>>>>> 6174e16e975e09bbc1059011add929c71cbeac49
 
 
         Statement st = cnx.createStatement();
@@ -33,8 +38,12 @@ public class TicketService implements CRUD<Ticket> {
         String req = "UPDATE ticket SET " +
                 "QRCODE='" + ticket.getQRCODE() + "', " +
                 "price=" + ticket.getPrice() + ", " +
+<<<<<<< HEAD
                 "isPayed=" + ticket.getIsPayed() +
                 "idevent" + ticket.getIdevent() +
+=======
+                "isPayed=" + ticket.isPayed() +
+>>>>>>> 6174e16e975e09bbc1059011add929c71cbeac49
                 " WHERE id=" + ticket.getId();
 
         try (Statement st = cnx.createStatement()) {
@@ -73,8 +82,13 @@ public class TicketService implements CRUD<Ticket> {
                 ticket.setId(resultSet.getInt("id"));
                 ticket.setQRCODE(resultSet.getString("QRCODE"));
                 ticket.setPrice(resultSet.getInt("price"));
+<<<<<<< HEAD
                 ticket.setIsPayed(resultSet.getInt("isPayed"));
                 ticket.setIdevent(resultSet.getInt("idevent"));
+=======
+                ticket.setPayed(resultSet.getBoolean("isPayed"));
+
+>>>>>>> 6174e16e975e09bbc1059011add929c71cbeac49
                 tickets.add(ticket);
             }
         }

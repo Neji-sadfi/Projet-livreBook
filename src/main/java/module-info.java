@@ -1,5 +1,6 @@
 module com.example.livrebook {
     requires javafx.controls;
+    requires javafx.graphics;
     requires javafx.fxml;
 
     requires org.controlsfx.controls;
@@ -7,23 +8,22 @@ module com.example.livrebook {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires java.sql;
+<<<<<<< HEAD
     requires com.google.zxing;
     requires com.google.zxing.javase;
     requires itextpdf;
     requires java.desktop;
+=======
+>>>>>>> 6174e16e975e09bbc1059011add929c71cbeac49
 
     opens com.example.livrebook to javafx.fxml;
     exports com.example.livrebook.gui;
     opens com.example.livrebook.gui to javafx.fxml;
     exports com.example.livrebook.test;
     opens com.example.livrebook.test to javafx.fxml;
-    exports com.example.livrebook.gui.event;
-
-    opens com.example.livrebook.gui.event to javafx.fxml;
-    opens com.example.livrebook.model.event to javafx.base;
-
-    // Other module configurations
+    exports com.example.livrebook.gui.delivery;
+    opens com.example.livrebook.gui.delivery to javafx.fxml;
+    exports com.example.livrebook.test.delivery;
 
 
-//exports com.example.livrebook;
 }

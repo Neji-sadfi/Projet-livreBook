@@ -4,11 +4,15 @@ public class Ticket {
     private int id;
     private String QRCODE;
     private int price;
+<<<<<<< HEAD
     private int isPayed;
     private int idevent;
 
 
 
+=======
+    private boolean isPayed;
+>>>>>>> 6174e16e975e09bbc1059011add929c71cbeac49
 
     public int getId() {
         return id;
@@ -34,6 +38,7 @@ public class Ticket {
         this.price = price;
     }
 
+<<<<<<< HEAD
     public int getIdevent() {
         return idevent;
     }
@@ -43,6 +48,9 @@ public class Ticket {
     }
 
     public int getIsPayed() {
+=======
+    public boolean isPayed() {
+>>>>>>> 6174e16e975e09bbc1059011add929c71cbeac49
         return isPayed;
     }
 
@@ -53,19 +61,25 @@ public class Ticket {
     public Ticket() {
     }
 
+<<<<<<< HEAD
     public Ticket(int id, String QRCODE, int price, int isPayed,int idevent) {
+=======
+    public Ticket(int id, String QRCODE, int price, boolean isPayed) {
+>>>>>>> 6174e16e975e09bbc1059011add929c71cbeac49
         this.id = id;
         this.QRCODE = QRCODE;
         this.price = price;
         this.isPayed = isPayed;
-        this.idevent=idevent;
     }
 
+<<<<<<< HEAD
     public Ticket(String QRCODE, int price, int isPayed, int idevent) {
+=======
+    public Ticket(String QRCODE, int price, boolean isPayed) {
+>>>>>>> 6174e16e975e09bbc1059011add929c71cbeac49
         this.QRCODE = QRCODE;
         this.price = price;
         this.isPayed = isPayed;
-        this.idevent=idevent;
     }
 
     @Override
@@ -75,7 +89,6 @@ public class Ticket {
                 ", QRCODE='" + QRCODE + '\'' +
                 ", price=" + price +
                 ", isPayed=" + isPayed +
-                ", idevent=" + idevent +
                 '}';
     }
 }
