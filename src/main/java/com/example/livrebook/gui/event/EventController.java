@@ -11,7 +11,12 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.MouseEvent;
+import javafx.stage.FileChooser;
 
+import java.io.File;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.Date;
@@ -26,8 +31,11 @@ public class EventController implements Initializable {
     private EventService eventService;
     private Connection cnx;
 
+
     @FXML
     private TextField searchId;
+    @FXML
+    private Button btn_select_image;
 
     @FXML
     private TextField nb_ticket;
@@ -59,6 +67,8 @@ public class EventController implements Initializable {
     @FXML
     private Button btn_update;
 
+
+
     @FXML
     private TableColumn<Event, Integer> colId;
 
@@ -86,6 +96,8 @@ public class EventController implements Initializable {
     @FXML
     private TableView<Event> tvEvent;
 
+
+
     public EventController() {
         this.eventService = new EventService();
         cnx = DbConnection.getInstance().getCnx();
@@ -105,6 +117,9 @@ public class EventController implements Initializable {
         }
         if (event.getSource() == btn_delete) {
             deleteRecord();
+        }
+        if (event.getSource() == btn_select_image) {
+            handleImageSelection();
         }
     }
 
@@ -143,6 +158,8 @@ public class EventController implements Initializable {
     }
 
     private void insertRecord() {
+
+
         String req = "INSERT INTO event (title, adresse, description, picture, startDate, endDate, nb_ticket) " +
                 "VALUES ('" + event_title.getText() + "','" + Event_adress.getText() + "','"
                 + Event_desc.getText() + "','" + Event_pic.getText()
@@ -278,4 +295,53 @@ public class EventController implements Initializable {
         alert.setContentText(content);
         alert.showAndWait();
     }
+
+    @FXML
+    void handleImageSelection() {
+        FileChooser fileChooser = new FileChooser();
+        fileChooser.setTitle("Sélectionner une image");
+        File file = fileChooser.showOpenDialog(null);
+
+        if (file != null) {
+            // Récupérer le nom du fichier
+            String pictureName = file.getName().toString();
+
+
+        }
+    }
+
+    @FXML
+    private ImageView eventImageView;
+
+    private File selectedImageFile;
+
+    @FXML
+    void importImage(ActionEvent event) {
+        FileChooser fileChooser = new FileChooser();
+        fileChooser.setTitle("Sélectionner une image");
+        selectedImageFile = fileChooser.showOpenDialog(null);
+
+        if (selectedImageFile != null) {
+            // Display the image file name in the TextField
+            Event_pic.setText(selectedImageFile.getName());
+        }
+    }
+
+    @FXML
+    void handleImageSelection(MouseEvent event) {
+        if (event.getClickCount() == 2) { // Double-click
+            if (selectedImageFile != null) {
+                // Load and display the image in the ImageView
+                Image image = new Image(selectedImageFile.toURI().toString());
+                eventImageView.setImage(image);
+
+                // You can save the image path or file for later use
+                Event selectedEvent = tvEvent.getSelectionModel().getSelectedItem();
+                if (selectedEvent != null) {
+                    selectedEvent.setPicture(selectedImageFile.getAbsolutePath());
+                }
+            }
+        }
+    }
+
 }

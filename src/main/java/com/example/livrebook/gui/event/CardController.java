@@ -4,6 +4,7 @@ import com.example.livrebook.model.event.Event;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -35,10 +36,20 @@ public class CardController {
 
     public void setData(Event event ){
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/livrebook/Event/Client_event.fxml"));
-        if (event.getPicture() != null) {
-        Image image = new Image((getClass().getResourceAsStream(event.getPicture())));
 
-        eventImage.setImage(image);}
+        String imagePath = event.getPicture();
+        System.out.println(imagePath);
+        if (imagePath != null && !imagePath.isEmpty()) {
+            // Construire le chemin d'accès complet avec le préfixe file:///
+            String fullImagePath = "/com/example/livrebook/image/images/"+imagePath;
+            System.out.println(fullImagePath);
+
+            Image image = new Image(getClass().getResourceAsStream(fullImagePath));
+// Chargement de l'image à partir du chemin d'accès local
+
+
+
+            eventImage.setImage(image);}
         eventName.setText(event.getTitle());
         String date= String.valueOf(event.getStartDate());
         dateEvent.setText(date);
@@ -73,5 +84,6 @@ public class CardController {
             e.printStackTrace();
         }
     }
+
 
 }

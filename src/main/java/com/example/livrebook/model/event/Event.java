@@ -19,10 +19,18 @@ public class Event {
         this.adresse = adresse;
         this.description = description;
         this.picture = picture;
-        this.startDate = startDate;
-        this.endDate = endDate;
+        this.startDate = setYearTo1900(startDate);
+        this.endDate = setYearTo1900(endDate);
        this.nb_ticket=nb_ticket;
     }
+
+    private Date setYearTo1900(Date date) {
+        if (date != null) {
+            date.setYear(date.getYear() - 1900);
+        }
+        return date;
+    }
+
     public Event(int id ,String title, String adresse, String description, String picture, Date startDate, Date endDate) {
         this.id=id;
         this.title = title;

@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee710a30-50d9-4074-800f-a0b2e8e0d926" name="Changes" comment="" />
+    <list default="true" id="ee710a30-50d9-4074-800f-a0b2e8e0d926" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/backOfficeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/backOfficeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Backoffice.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ticket.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Ticket.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/SideBareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/SideBareController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/CardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/ClientEventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/ClientEventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/EventC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/EventC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/event/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/event/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/EventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/EventApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/EventApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/SideBareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/SideBareApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/TicketApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/TicketApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Card.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Card.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Client_event.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Client_event.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Event.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Event.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/event-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/event-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Side-bare.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Side-bare.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,13 +76,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;tastas&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/user/Desktop/ProjetJava/Projet-livreBook/src/main/java/com&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Downloads/JFoenix-master.zip&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Downloads/JFoenix-master&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
@@ -71,6 +94,7 @@
       <recent name="C:\Users\user\Desktop\ProjetJava\Projet-livreBook\src\main\resources\com\example\livrebook\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\ProjetJava\Projet-livreBook\src\main\resources\com\example\livrebook" />
       <recent name="C:\Users\user\Desktop\ProjetJava\Projet-livreBook\lib" />
       <recent name="C:\Users\user\Desktop\ProjetJava\Projet-livreBook\src\main\resources\com\example\livrebook\image\images" />
       <recent name="C:\Users\user\IdeaProjects\LivreBook\src\main\java\com\example\livrebook" />
@@ -79,7 +103,7 @@
       <recent name="com.example.livrebook" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EventApplication">
+  <component name="RunManager">
     <configuration name="EventApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.livrebook.test.EventApplication" />
       <module name="LivreBook" />
@@ -134,10 +158,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SideBareApplication" />
+        <item itemvalue="Application.EventApplication" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.HelloApplication" />
-        <item itemvalue="Application.EventApplication" />
-        <item itemvalue="Application.SideBareApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +192,7 @@
       <workItem from="1706473701274" duration="6881000" />
       <workItem from="1706516301889" duration="1072000" />
       <workItem from="1706518272613" duration="994000" />
+      <workItem from="1706865837455" duration="17779000" />
     </task>
     <servers />
   </component>
