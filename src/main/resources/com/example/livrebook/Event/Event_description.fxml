@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" stylesheets="Design.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.livrebook.gui.event.EventDescriptionController">
+
+    <VBox alignment="CENTER" layoutX="34.0" prefHeight="430.0" prefWidth="131.0" spacing="10" styleClass="event-details">
+
+        <GridPane gridLinesVisible="true" hgap="10" vgap="5">
+
+        </GridPane>
+
+        <HBox prefHeight="17.0" prefWidth="102.0" spacing="10">
+            <Label styleClass="attribute-label" text="Title:">
+            <font>
+               <Font size="14.0" />
+            </font></Label>
+        </HBox>
+
+        <HBox spacing="10">
+            <Label styleClass="attribute-label" text="Address:">
+            <font>
+               <Font size="14.0" />
+            </font></Label>
+            <Label fx:id="addressLabel" styleClass="attribute-value" />
+        </HBox>
+
+        <HBox spacing="10">
+            <Label prefHeight="27.0" prefWidth="89.0" styleClass="attribute-label" text="Description:">
+            <font>
+               <Font size="14.0" />
+            </font></Label>
+            <Label fx:id="descriptionLabel" styleClass="attribute-value" />
+        </HBox>
+
+        <HBox spacing="10">
+            <Label fx:id="pictureLabel" styleClass="attribute-value" />
+         <Label fx:id="ticket_price1" prefHeight="18.0" prefWidth="111.0" text="prix">
+            <font>
+               <Font size="14.0" />
+            </font></Label>
+        </HBox>
+
+        <HBox spacing="10">
+            <Label styleClass="attribute-label" text="Start Date:">
+            <font>
+               <Font size="14.0" />
+            </font></Label>
+            <Label fx:id="startDateLabel" styleClass="attribute-value" />
+        </HBox>
+
+        <HBox spacing="10">
+            <Label styleClass="attribute-label" text="End Date:">
+            <font>
+               <Font size="14.0" />
+            </font></Label>
+            <Label fx:id="endDateLabel" styleClass="attribute-value" />
+        </HBox>
+
+        <HBox spacing="10">
+            <Label prefHeight="20.0" prefWidth="118.0" styleClass="attribute-label" text="Number of Tickets:">
+            <font>
+               <Font size="14.0" />
+            </font></Label>
+            <Label fx:id="nbTicketLabel" styleClass="attribute-value" />
+        </HBox>
+
+    </VBox>
+
+    <ImageView fx:id="ticket_photo" fitHeight="375.0" fitWidth="241.0" layoutX="331.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" styleClass="image-view">
+        <image>
+            <Image url="@../image/images/9780226439785.jpg" />
+        </image>
+    </ImageView>
+   <Button fx:id="addTicket" layoutX="44.0" layoutY="376.0" mnemonicParsing="false" onAction="#addTicket" prefHeight="38.0" prefWidth="187.0" stylesheets="@Design.css" text="acheter une ticket">
+      <styleClass>
+         <String fx:value="shadow" />
+         <String fx:value="btn_buy" />
+      </styleClass></Button>
+      <Label fx:id="titleLabel" styleClass="attribute-value" />
+   <Label fx:id="ticket_title" layoutX="145.0" layoutY="116.0" prefHeight="18.0" prefWidth="111.0" text="Label" />
+   <Label fx:id="ticket_adresse" layoutX="145.0" layoutY="150.0" prefHeight="18.0" prefWidth="111.0" text="Label" />
+   <Label fx:id="ticket_end" layoutX="145.0" layoutY="278.0" prefHeight="18.0" prefWidth="111.0" text="Label" />
+   <Label fx:id="ticket_start" layoutX="145.0" layoutY="245.0" prefHeight="18.0" prefWidth="111.0" text="Label" />
+   <Label fx:id="ticket_price" layoutX="145.0" layoutY="215.0" prefHeight="18.0" prefWidth="111.0" text="Label" />
+   <Label fx:id="ticket_description" layoutX="145.0" layoutY="176.0" prefHeight="38.0" prefWidth="175.0" text="Label" />
+   <Label fx:id="nb_ticket" layoutX="181.0" layoutY="308.0" prefHeight="18.0" prefWidth="111.0" text="Label" />
+     <Label layoutX="27.0" layoutY="36.0" prefHeight="38.0" prefWidth="266.0" styleClass="event-details-label" text="Détails de l'événement">
+      <font>
+         <Font name="Berlin Sans FB" size="24.0" />
+      </font>
+   </Label>
+
+</AnchorPane>
