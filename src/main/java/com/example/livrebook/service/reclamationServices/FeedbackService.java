@@ -84,4 +84,9 @@ public class FeedbackService implements CRUD<FeedBack> {
         }
         return feedbacks;
     }
+
+    @Override
+    public List<FeedBack> selectWherePending() throws SQLException {
+        return null;
+    }
 }

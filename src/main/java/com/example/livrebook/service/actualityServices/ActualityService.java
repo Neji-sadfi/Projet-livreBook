@@ -73,4 +73,9 @@ public class ActualityService implements CRUD<Actuality> {
         }
         return actualities;
     }
+
+    @Override
+    public List<Actuality> selectWherePending() throws SQLException {
+        return null;
+    }
 }

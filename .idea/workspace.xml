@@ -5,14 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee710a30-50d9-4074-800f-a0b2e8e0d926" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/delivery/DeliveryViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/deliveryOrder/DeliveryOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/deliveryOrderServices/DeliveryOrderServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/deliveryServices/DeliveryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/delivery/DeliveryViewTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/DeliveryView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/delivery/DeliveryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/delivery/DeliveryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/livraison/Livraison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/delivery/Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/CRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/actualityServices/ActualityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/actualityServices/ActualityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/actualityServices/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/actualityServices/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/BookQuantityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/BookQuantityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/OrderLineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/OrderLineService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/OrdersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/EventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/TicketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/livraisonServices/LivraisonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/reclamationServices/FeedbackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/reclamationServices/FeedbackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/userServices/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/userServices/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/userServices/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/userServices/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/delivery/DeliveryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/delivery/DeliveryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/Delivery.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/Delivery.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/DeliveryStylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/DeliveryStylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="CSS File" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -43,29 +62,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DeliveryTest.executor": "Run",
-    "Application.HelloApplication.executor": "Run",
-    "Application.MainClass.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Ala",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/LivreBook/lib/mysql-connector-j-8.0.31.jar",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DeliveryTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DeliveryViewTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Ala&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/LivreBook/lib/mysql-connector-j-8.0.31.jar&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\LivreBook\src\main\java\com\example\livrebook" />
@@ -96,7 +117,13 @@
       <workItem from="1705158491095" duration="2738000" />
       <workItem from="1705521848116" duration="2104000" />
       <workItem from="1705653462930" duration="2286000" />
-      <workItem from="1705658764016" duration="2741000" />
+      <workItem from="1705658764016" duration="8465000" />
+      <workItem from="1705704756823" duration="240000" />
+      <workItem from="1705738708736" duration="31962000" />
+      <workItem from="1706260383824" duration="23732000" />
+      <workItem from="1706640162111" duration="2630000" />
+      <workItem from="1706707057484" duration="12626000" />
+      <workItem from="1706770412197" duration="23312000" />
     </task>
     <servers />
   </component>

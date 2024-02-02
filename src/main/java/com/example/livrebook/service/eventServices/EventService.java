@@ -92,7 +92,10 @@ public class EventService implements CRUD<Event> {
         return events;
     }
 
-
+    @Override
+    public List<Event> selectWherePending() throws SQLException {
+        return null;
+    }
 
 
 }

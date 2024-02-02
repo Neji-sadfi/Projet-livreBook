@@ -17,5 +17,11 @@ module com.example.livrebook {
     exports com.example.livrebook.gui.delivery;
     opens com.example.livrebook.gui.delivery to javafx.fxml;
     exports com.example.livrebook.test.delivery;
+    opens com.example.livrebook.model.delivery to javafx.base;
+    exports com.example.livrebook.model.delivery;
+    opens com.example.livrebook.model.deliveryOrder to javafx.base;
+    exports com.example.livrebook.model.deliveryOrder;
+
+
 //    exports com.example.livrebook;
 }
