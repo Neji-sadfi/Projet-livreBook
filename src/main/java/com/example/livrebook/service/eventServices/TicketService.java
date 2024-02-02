@@ -81,4 +81,9 @@ public class TicketService implements CRUD<Ticket> {
 
         return tickets;
     }
+
+    @Override
+    public List<Ticket> selectWherePending() throws SQLException {
+        return null;
+    }
 }

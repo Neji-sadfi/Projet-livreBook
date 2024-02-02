@@ -84,4 +84,9 @@ public class BookService implements CRUD<Book> {
         return books;
     }
 
+    @Override
+    public List<Book> selectWherePending() throws SQLException {
+        return null;
+    }
+
 }
