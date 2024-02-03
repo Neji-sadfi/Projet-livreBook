@@ -1,5 +1,6 @@
 package com.example.livrebook.gui;
 
+import com.example.livrebook.gui.delivery.DeliveryController;
 import com.example.livrebook.gui.event.CardController;
 import com.example.livrebook.gui.event.ClientEventController;
 import com.example.livrebook.gui.event.EventController;
@@ -92,14 +93,14 @@ public class SideBareController implements Initializable {
     }
 
 
-    public void handleButton1Action(ActionEvent event) {
+    public void handleButton2Action(ActionEvent event) {
         try {
             System.out.println("You clicked me");
 
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/livrebook/Event/event-view.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/livrebook/Event/client_event.fxml"));
             Parent cardView = fxmlLoader.load();
 
-            EventController eventController = fxmlLoader.getController();
+            ClientEventController clientEventController = fxmlLoader.getController();
             // You can access methods or properties of your CardController here if needed
 
             mainPane.setCenter(cardView);
@@ -126,5 +127,6 @@ public class SideBareController implements Initializable {
             e.printStackTrace(); // Add proper error handling here
         }
     }
+
 
 }

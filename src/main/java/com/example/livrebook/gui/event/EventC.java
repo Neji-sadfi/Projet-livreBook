@@ -4,6 +4,7 @@ import com.example.livrebook.model.event.Event;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -11,10 +12,14 @@ import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
+import javafx.scene.paint.Color;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
-public class EventC {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class EventC implements Initializable {
 
     @FXML
     private Button btn_buy;
@@ -53,7 +58,11 @@ public class EventC {
             eventImage.setImage(image);}
         eventTitle.setText(event.getTitle());
 
-        eventAdress.setText(event.getAdresse());
+        if (event.getNb_ticket()==0){
+            eventAdress.setText("Solde Out ");
+            eventAdress.setStyle("-fx-text-fill: red;");
+        }else {
+            eventAdress.setText(event.getAdresse());}
         reserveButton.setOnAction(e -> reserveButtonClicked(e, event));
 
     }
@@ -83,6 +92,9 @@ public class EventC {
         }
     }
 
-    public void importImage(ActionEvent event) {
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+
     }
 }

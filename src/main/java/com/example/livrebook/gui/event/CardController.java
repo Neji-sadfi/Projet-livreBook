@@ -4,6 +4,7 @@ import com.example.livrebook.model.event.Event;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -15,7 +16,10 @@ import javafx.scene.layout.HBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
-public class CardController {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class CardController  implements Initializable {
     @FXML
     private HBox box;
 
@@ -40,12 +44,12 @@ public class CardController {
         String imagePath = event.getPicture();
         System.out.println(imagePath);
         if (imagePath != null && !imagePath.isEmpty()) {
-            // Construire le chemin d'accès complet avec le préfixe file:///
+
             String fullImagePath = "/com/example/livrebook/image/images/"+imagePath;
             System.out.println(fullImagePath);
 
             Image image = new Image(getClass().getResourceAsStream(fullImagePath));
-// Chargement de l'image à partir du chemin d'accès local
+
 
 
 
@@ -53,7 +57,11 @@ public class CardController {
         eventName.setText(event.getTitle());
         String date= String.valueOf(event.getStartDate());
         dateEvent.setText(date);
-        adressEvent.setText(event.getAdresse());
+        if (event.getNb_ticket()==0){
+            adressEvent.setText("Solde Out ");
+            adressEvent.setStyle("-fx-text-fill: red;");
+        }else {
+        adressEvent.setText(event.getAdresse());}
 
         reserveButton.setOnAction(e -> reserveButtonClicked(e, event));
 
@@ -86,4 +94,8 @@ public class CardController {
     }
 
 
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+
+    }
 }

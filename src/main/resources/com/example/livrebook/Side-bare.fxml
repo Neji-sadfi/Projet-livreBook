@@ -116,12 +116,12 @@
          <children>
             <VBox layoutX="0.8" layoutY="20.0" prefHeight="634.0" prefWidth="127.0" spacing="15.0" style="-fx-background-color: white; -fx-border-radius: 10;" styleClass="shadow" stylesheets="@Event/Design.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
                <children>
-                  <JFXButton alignment="BASELINE_LEFT" onAction="#handleButton1Action" prefHeight="37.0" prefWidth="127.0" text="commande">
+                  <JFXButton alignment="BASELINE_LEFT"  prefHeight="37.0" prefWidth="127.0" text="commande">
                      <font>
                         <Font size="16.0" />
                      </font>
                   </JFXButton>
-                  <JFXButton alignment="BASELINE_LEFT" prefHeight="37.0" prefWidth="127.0" text="evenment">
+                  <JFXButton alignment="BASELINE_LEFT" prefHeight="37.0" prefWidth="127.0" text="evenment" onAction="#handleButton2Action">
                      <font>
                         <Font size="16.0" />
                      </font>

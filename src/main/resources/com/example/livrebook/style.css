@@ -1,0 +1,9 @@
+
+#chatbotContainer {
+    -fx-background-color: #ffedc2;
+}
+
+#sendButton {
+    -fx-background-color: #b3A688;
+    -fx-text-fill: white;
+}

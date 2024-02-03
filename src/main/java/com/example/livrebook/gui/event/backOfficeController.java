@@ -1,5 +1,6 @@
 package com.example.livrebook.gui.event;
 
+import com.example.livrebook.gui.delivery.DeliveryController;
 import com.jfoenix.controls.JFXButton;
 import javafx.animation.FadeTransition;
 import javafx.animation.TranslateTransition;
@@ -103,15 +104,15 @@ public class backOfficeController implements Initializable {
         }
     }
     @FXML
-    void handleButton4Action(ActionEvent event) {
+    void handleButton2Action(ActionEvent event) {
 
         try {
             System.out.println("You clicked me");
 
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/livrebook/Event/Client_event.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/livrebook/Event/event-view.fxml"));
             Parent cardView = fxmlLoader.load();
 
-            ClientEventController clientEventController = fxmlLoader.getController();
+            EventController eventController = fxmlLoader.getController();
             // You can access methods or properties of your CardController here if needed
 
             mainPane.setCenter(cardView);
@@ -120,8 +121,8 @@ public class backOfficeController implements Initializable {
             e.printStackTrace(); // Add proper error handling here
         }
     }
-
-    public void handleButton3Action(ActionEvent event) {
+@FXML
+     void handleButton3Action(ActionEvent event) {
         try {
             System.out.println("You clicked me");
 
@@ -135,6 +136,25 @@ public class backOfficeController implements Initializable {
         } catch (IOException e) {
             showErrorDialog("Error Loading FXML", "An error occurred while loading the FXML file.");
             e.printStackTrace(); // Add proper error handling here
+        }
+    }
+
+    @FXML
+    void handleButton7Action(ActionEvent event) {
+
+        try {
+            System.out.println("You clicked me");
+
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/livrebook/Delivery/Delivery.fxml"));
+            Parent cardView = fxmlLoader.load();
+
+            DeliveryController deliveryController = fxmlLoader.getController();
+
+
+            mainPane.setCenter(cardView);
+        } catch (IOException e) {
+            showErrorDialog("Error Loading FXML", "An error occurred while loading the FXML file.");
+            e.printStackTrace();
         }
     }
 }

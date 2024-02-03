@@ -99,6 +99,11 @@ public class EventService implements CRUD<Event> {
         return events;
     }
 
+    @Override
+    public List<Event> selectWherePending() throws SQLException {
+        return null;
+}
+
 
     public boolean updateTicket(Event event) throws SQLException {
         int  nbTicket=event.getNb_ticket()-1;
