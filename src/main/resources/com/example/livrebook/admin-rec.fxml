@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: #B3A688;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.livrebook.gui.delivery.FeedBackAdminController">
+    <children>
+        <Label layoutX="46.0" layoutY="20.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Liste des réclamations" />
+
+        <!-- TableView to display the list of reclamations -->
+        <TableView fx:id="FeedBackTableView" layoutX="35.0" layoutY="119.0" prefHeight="486.0" prefWidth="874.0" style="-fx-background-color: #dbcca7;">
+            <!-- Define columns for TableView -->
+            <columns>
+                <TableColumn fx:id="idColumn" text="ID" />
+                <TableColumn fx:id="nomClientColumn" text="Nom Client" />
+                <TableColumn fx:id="emailColumn" text="Email" />
+                <TableColumn fx:id="descriptionColumn" prefWidth="459.20001220703125" text="Description" />
+                <TableColumn fx:id="Supprec" text="Supprimer" />
+                <TableColumn fx:id="reponseColumn" prefWidth="93.60001220703123" text="Répondre" />
+            </columns>
+        </TableView>
+
+        <!-- Text area for response -->
+        <VBox layoutX="46.0" layoutY="380.0" />
+
+    </children>
+</AnchorPane>

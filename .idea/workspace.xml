@@ -4,28 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee710a30-50d9-4074-800f-a0b2e8e0d926" name="Changes" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/FeedController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/chatbot_interface.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4770a80c-9ec6-4a4d-ad9b-cb17f2b72549" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/delivery/FeedBackAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/admin-rec.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/MainClass.java" beforeDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/delivery/DeliveryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/delivery/DeliveryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/delivery/DeliveryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/delivery/DeliveryTest.java" afterDir="false" />
->>>>>>> b91cd8826d03163b6a09e0c9a6af4566f2a7d4ac
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/FeedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/FeedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/reclamation/FeedBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/reclamation/FeedBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/reclamationServices/FeedbackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/reclamationServices/FeedbackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/util/DbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/util/DbConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/Delivery.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/Delivery.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/DeliveryStylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/DeliveryStylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/chatbot_interface.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/chatbot_interface.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-<<<<<<< HEAD
-        <option value="Class" />
-        <option value="CSS File" />
-=======
         <option value="FxmlFile" />
-        <option value="CSS File" />
         <option value="Class" />
->>>>>>> b91cd8826d03163b6a09e0c9a6af4566f2a7d4ac
       </list>
     </option>
   </component>
@@ -50,22 +35,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/resources/com/example/livrebook/chatbot_interface.fxml" root0="SKIP_HIGHLIGHTING" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-      </MavenGeneralSettings>
-    </option>
+    <setting file="file://$PROJECT_DIR$/src/main/resources/com/example/livrebook/admin-rec.fxml" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="2atwDP8uilfHDkasGu2kPmM9QNO" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2bhDbx7zRwSx1ZOFzdp1TkLba3Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -73,75 +51,54 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.DeliveryTest.executor": "Run",
-    "Application.HelloApplication.executor": "Run",
-    "Application.MainClass.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-<<<<<<< HEAD
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Fekri Hamdi/Desktop/Projet-livreBook/src/main/resources/com/example/livrebook",
-=======
-    "git-widget-placeholder": "Ala",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/LivreBook/lib/mysql-connector-j-8.0.31.jar",
->>>>>>> b91cd8826d03163b6a09e0c9a6af4566f2a7d4ac
-    "list.type.of.created.stylesheet": "CSS",
+    "git-widget-placeholder": "fekri",
+    "last_directory_selection": "C:/Users/Fekri Hamdi/Desktop/Projet-livreBook/src/main/java/com/example/livrebook",
+    "last_opened_file_path": "C:/Users/Fekri Hamdi/Desktop/Projet-livreBook/lib/mysql-connector-j-8.0.31.jar",
     "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Fekri Hamdi\Desktop\Projet-livreBook\src\main\resources\com\example\livrebook" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.livrebook.gui.delivery" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\IdeaProjects\LivreBook\src\main\java\com\example\livrebook" />
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.example.livrebook.gui.delivery" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.example.livrebook" />
-    </key>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.9-jbr-17.0.9-f644763e9732-163ff1ef" />
-        <option value="jdk-17.0.9-jbr-17.0.9-f644763e9732-e10f1064" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ee710a30-50d9-4074-800f-a0b2e8e0d926" name="Changes" comment="" />
-      <created>1705151064718</created>
+      <changelist id="4770a80c-9ec6-4a4d-ad9b-cb17f2b72549" name="Changes" comment="" />
+      <created>1706658492233</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1705151064718</updated>
-      <workItem from="1705151065757" duration="249000" />
-      <workItem from="1705151322932" duration="3966000" />
-      <workItem from="1705158202616" duration="272000" />
-      <workItem from="1705158491095" duration="2738000" />
-<<<<<<< HEAD
-      <workItem from="1705742665990" duration="4037000" />
-=======
-      <workItem from="1705521848116" duration="2104000" />
-      <workItem from="1705653462930" duration="2286000" />
-      <workItem from="1705658764016" duration="2741000" />
->>>>>>> b91cd8826d03163b6a09e0c9a6af4566f2a7d4ac
+      <updated>1706658492233</updated>
+      <workItem from="1706658493303" duration="47454000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
