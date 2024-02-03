@@ -24,6 +24,23 @@ public class Actuality {
         this.publicationDate = publicationDate;
     }
 
+    public Actuality(String title, String description, Date date) {
+        this.title = title;
+        this.description = description;
+        this.date = date;
+    }
+
+    public Actuality(int id) {
+        this.id = id;
+    }
+
+    public Actuality(int id, String title, String description, Date date) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+        this.date = date;
+    }
+
     public Actuality() {
     }
 
@@ -77,4 +94,5 @@ public class Actuality {
                 ", publicationDate=" + publicationDate +
                 '}';
     }
+
 }

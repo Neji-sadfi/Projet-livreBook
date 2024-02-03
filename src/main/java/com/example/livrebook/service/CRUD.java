@@ -14,4 +14,7 @@ public interface CRUD<T> {
     boolean delete(T t) throws SQLException;
 
     List<T> selectAll() throws SQLException;
+
+    List<T> selectWherePending() throws SQLException;
+
 }

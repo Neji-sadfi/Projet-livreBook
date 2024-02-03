@@ -87,4 +87,9 @@ public class AccountService implements CRUD<Account> {
         }
         return accountList;
     }
+
+    @Override
+    public List<Account> selectWherePending() throws SQLException {
+        return null;
+    }
 }

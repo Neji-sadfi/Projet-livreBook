@@ -88,4 +88,9 @@ public class RoleService implements CRUD<Role> {
 
         return roles;
     }
+
+    @Override
+    public List<Role> selectWherePending() throws SQLException {
+        return null;
+    }
 }

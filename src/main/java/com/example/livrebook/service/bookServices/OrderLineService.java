@@ -19,6 +19,7 @@ import java.util.List;
     public class OrderLineService implements CRUD<OrderLine> {
         private Connection cnx;
         private HashMap<Book, OrderLine> bookQuantity;
+
         public OrderLineService() {
             cnx = DbConnection.getInstance().getCnx();
         }
@@ -29,7 +30,7 @@ import java.util.List;
                     "VALUES (" + orderLine.getIdOrder() + ", " + orderLine.getBookId() + ", " + orderLine.getQuantity() + ")";
 
             Statement st = cnx.createStatement();
-                return st.executeUpdate(req) == -1;
+            return st.executeUpdate(req) == -1;
 
         }
 
@@ -76,6 +77,12 @@ import java.util.List;
             }
             return orderLines;
         }
+
+        @Override
+        public List<OrderLine> selectWherePending() throws SQLException {
+            return null;
+        }
+
 
         public List<OrderLineBook> getAllUserOrders(int userId) throws SQLException {
             List<OrderLineBook> userOrders = new ArrayList<>();
@@ -134,5 +141,5 @@ import java.util.List;
 
             return userOrders;
         }
-
     }
+

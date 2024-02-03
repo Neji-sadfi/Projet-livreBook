@@ -81,6 +81,12 @@ public class BookService implements CRUD<Book> {
 
         return books;
     }
+
+    @Override
+    public List<Book> selectWherePending() throws SQLException {
+        return null;
+    }
+
     public Book selectById(int id) throws SQLException {
         String req = "SELECT * FROM book WHERE id ="+id;
         Statement st = cnx.createStatement();
@@ -97,6 +103,7 @@ public class BookService implements CRUD<Book> {
             book.setSummary(resultSet.getString("summary"));
             book.setDatePublication(resultSet.getDate("datePublication"));
             book.setPicture(resultSet.getString("picture"));
+
 
 
         return book;

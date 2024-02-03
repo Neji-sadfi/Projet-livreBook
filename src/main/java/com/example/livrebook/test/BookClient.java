@@ -11,7 +11,7 @@ public class BookClient extends Application {
     @Override
     public void start(Stage stage) throws IOException {
 
-        FXMLLoader fxmlLoader = new FXMLLoader(BookClient.class.getResource("/com/example/livrebook/book/front-office/order-client.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(BookClient.class.getResource("/com/example/livrebook/book/back-office/order-admin.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1000, 700);
         stage.setTitle("LivreBook");
         stage.setScene(scene);

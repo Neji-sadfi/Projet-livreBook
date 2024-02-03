@@ -78,6 +78,12 @@ public class BookQuantityService implements CRUD<BookQuantity> {
             return bookQuantities;
         }
 
+    @Override
+    public List<BookQuantity> selectWherePending() throws SQLException {
+        return null;
+    }
+
+
     public List<BookQuantityDetails> getAllBooksQuantities() throws SQLException {
         List<BookQuantityDetails> bookQuantities = new ArrayList<>();
         String req = "SELECT * FROM bookquantity q, book b where q.bookId = b.id";
@@ -108,3 +114,8 @@ public class BookQuantityService implements CRUD<BookQuantity> {
     }
 
 }
+
+
+
+
+

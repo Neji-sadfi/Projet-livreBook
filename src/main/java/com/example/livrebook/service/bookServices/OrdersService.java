@@ -68,10 +68,17 @@ import java.util.List;
             }
             return ordersList;
         }
+
+        @Override
+        public List<Orders> selectWherePending() throws SQLException {
+            return null;
+        }
+
         public int insertAndGetGeneratedKey(Orders order) throws SQLException {
             String req = "INSERT INTO orders (userId, orderDate, orderStatus, paymentMethod, totalPrice) " +
                     "VALUES (" + order.getUserId() + ", '" + new java.sql.Date(order.getOrderDate().getTime()) + "', '" +
                     order.getOrderStatus() + "', '" + order.getPaymentMethod() + "', " + order.getTotalPrice() + ")";
+
 
             try (Statement st = cnx.createStatement()) {
                 st.executeUpdate(req, Statement.RETURN_GENERATED_KEYS);
@@ -175,3 +182,4 @@ import java.util.List;
         }
 
     }
+

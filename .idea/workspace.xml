@@ -5,48 +5,115 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee710a30-50d9-4074-800f-a0b2e8e0d926" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/fontawesomefx-8.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jfoenix-17-0.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/book/backOffice/AddBookPopupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/book/backOffice/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/book/backOffice/EditBookPopupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/book/backOffice/OrderAdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/book/frontOffice/BookClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/book/frontOffice/CardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/book/frontOffice/OrderClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/book/frontOffice/OrderDetailsPopupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/book/frontOffice/PaymentPopupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/book/BookQuantityDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/book/OrderLineBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/book/OrderTableData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/user/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/BookClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/book/MainCssFile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/book/back-office/AddBookPopup.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/book/back-office/EditBookPopup.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/book/back-office/book-admin.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/book/back-office/order-admin.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/book/book-client.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/book/front-office/CardDesignCss.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/book/front-office/OrderDetailsPopup.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/book/front-office/book-client.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/book/front-office/card.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/book/front-office/order-client.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/book/front-office/payment_popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/book/front-office/payment_popup.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pictures/pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/pictures/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_19_15_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_19_15_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_19_15__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_19_15__Changes_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_19_16_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_19_16__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_19_25_[Changes]/Ticket.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_19_25_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_19_25_[Changes]1/Ticket.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_19_25_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_19_25__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_19_25__Changes_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_19_36_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_19_36__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_19_37_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_31_01_2024_19_37__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ticket.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/ActualityAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/FeedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/SideBareController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/delivery/DeliveryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/delivery/FeedBackAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/CardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/ClientEventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/EventC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/EventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/EventDescriptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/TicketController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/backOfficeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/deliveryOrder/DeliveryOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/deliveryOrderServices/DeliveryOrderServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/deliveryServices/DeliveryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/EventApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloChat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/PDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/SideBareApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/actuality/ActualityAdminView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/backOfficeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/delivery/DeliveryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Backoffice.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/Delivery.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/DeliveryStylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Card.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Client_event.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Design.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Event.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Event_description.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Ticket.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/event-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Side-bare.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/actuality/Actuality-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/admin-rec.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/chatbot_interface.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/2019-03-BLOG-Whirlikids-2-700x300.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/9780226439785.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/actualites-en-direct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/backup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/book-festival-concept-little-girl-600nw-2182861533.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/book-festival-concept-young-woman-600nw-2183387573.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/burger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/chariot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/contrat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/data.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/evenements.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/expedition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/facture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/humain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/istockphoto-1162698015-612x612.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/logo-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/panier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/setting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/user.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/book/BookQuantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/book/BookQuantity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/book/OrderLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/book/OrderLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/book/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/book/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/actuality/Actuality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/actuality/Actuality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/event/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/event/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/event/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/event/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/livraison/Livraison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/delivery/Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/reclamation/FeedBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/reclamation/FeedBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/CRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/CRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/actualityServices/ActualityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/actualityServices/ActualityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/actualityServices/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/actualityServices/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/AccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/BookQuantityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/BookQuantityService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/BookService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/OrderLineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/OrderLineService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/bookServices/OrdersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/EventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/TicketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/livraisonServices/LivraisonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/reclamationServices/FeedbackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/reclamationServices/FeedbackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/userServices/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/userServices/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/userServices/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/userServices/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/BookClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/BookClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/TicketApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/util/DbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/util/DbConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/hello-view.fxml" afterDir="false" />
     </list>
@@ -59,8 +126,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,118 +138,54 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
+        &quot;associatedIndex&quot;: 6
+        }</component>
   <component name="ProjectId" id="2atwDP8uilfHDkasGu2kPmM9QNO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mallo/OneDrive/Bureau/Projet Java/Projet-livreBook/lib/stripe-java-17.1.0-javadoc.jar&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DeliveryTest.executor": "Run",
+    "Application.DeliveryViewTest.executor": "Run",
+    "Application.HelloApplication.executor": "Run",
+    "Application.MainClass.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Merging youssef",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/LivreBook/lib/mysql-connector-j-8.0.31.jar",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mallo\OneDrive\Bureau\Projet Java\Projet-livreBook\lib" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mallo\OneDrive\Bureau\Projet Java\Projet-livreBook\src\main\java\com\example\livrebook\gui\book\backOffice" />
-      <recent name="C:\Users\mallo\OneDrive\Bureau\Projet Java\Projet-livreBook\src\main\resources\com\example\livrebook\book\back-office" />
-      <recent name="C:\Users\mallo\OneDrive\Bureau\Projet Java\Projet-livreBook\src\main\resources" />
-      <recent name="C:\Users\mallo\OneDrive\Bureau\Projet Java\Projet-livreBook\src\main\resources\com\example\livrebook\book" />
       <recent name="C:\Users\user\IdeaProjects\LivreBook\src\main\java\com\example\livrebook" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.livrebook" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BookClient">
-    <configuration name="BookClient" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.livrebook.test.BookClient" />
-      <module name="LivreBook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.livrebook.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.livrebook.test.HelloApplication" />
-      <module name="LivreBook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.livrebook.gui.book.frontOffice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.livrebook.test.MainClass" />
-      <module name="LivreBook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.livrebook.gui.book.frontOffice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.example.livrebook.test.BookClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.livrebook.test.BookClient" />
-      <module name="LivreBook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.livrebook.gui.book.frontOffice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.com.example.livrebook.test.BookClient" />
-      <item itemvalue="Application.BookClient" />
-      <item itemvalue="Application.HelloApplication" />
-      <item itemvalue="Application.MainClass" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.BookClient" />
-        <item itemvalue="Application.com.example.livrebook.test.BookClient" />
-        <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.HelloApplication" />
-      </list>
-    </recent_temporary>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-jbr-17.0.9-f644763e9732-163ff1ef" />
+        <option value="jdk-17.0.9-jbr-17.0.9-f644763e9732-e10f1064" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -196,38 +199,20 @@
       <workItem from="1705151322932" duration="3966000" />
       <workItem from="1705158202616" duration="272000" />
       <workItem from="1705158491095" duration="2738000" />
-      <workItem from="1705248657668" duration="2259000" />
-      <workItem from="1705519214059" duration="1606000" />
-      <workItem from="1705522842250" duration="2573000" />
-      <workItem from="1705652141149" duration="337000" />
-      <workItem from="1705652548997" duration="111000" />
-      <workItem from="1705653299457" duration="971000" />
-      <workItem from="1705669473492" duration="823000" />
-      <workItem from="1705694779093" duration="22382000" />
-      <workItem from="1705828445583" duration="11173000" />
-      <workItem from="1706088269422" duration="6071000" />
-      <workItem from="1706102073751" duration="1986000" />
-      <workItem from="1706344453307" duration="3090000" />
-      <workItem from="1706360241529" duration="13000" />
-      <workItem from="1706434331726" duration="4175000" />
-      <workItem from="1706438855627" duration="265000" />
-      <workItem from="1706439163841" duration="2272000" />
-      <workItem from="1706454028262" duration="4183000" />
-      <workItem from="1706474736222" duration="5069000" />
-      <workItem from="1706517397112" duration="7865000" />
-      <workItem from="1706542577473" duration="984000" />
-      <workItem from="1706606574550" duration="6955000" />
-      <workItem from="1706688843737" duration="17846000" />
-      <workItem from="1706776092509" duration="22354000" />
-      <workItem from="1706909364921" duration="5619000" />
-      <workItem from="1706946791990" duration="9005000" />
+      <workItem from="1705521848116" duration="2104000" />
+      <workItem from="1705653462930" duration="2286000" />
+      <workItem from="1705658764016" duration="8465000" />
+      <workItem from="1705704756823" duration="240000" />
+      <workItem from="1705738708736" duration="31962000" />
+      <workItem from="1706260383824" duration="23732000" />
+      <workItem from="1706640162111" duration="2630000" />
+      <workItem from="1706707057484" duration="12626000" />
+      <workItem from="1706770412197" duration="24310000" />
+      <workItem from="1706918479897" duration="5491000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
