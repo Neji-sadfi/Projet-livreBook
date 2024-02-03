@@ -12,6 +12,11 @@ module com.example.livrebook {
     //requires com.google.zxing.javase;
     //requires itextpdf;
     requires java.desktop;
+    requires com.jfoenix;
+    requires com.google.zxing;
+    requires itextpdf;
+    requires com.google.zxing.javase;
+    //requires com.jfoenix;
 
     opens com.example.livrebook to javafx.fxml;
     exports com.example.livrebook.gui;

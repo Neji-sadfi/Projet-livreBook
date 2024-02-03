@@ -9,6 +9,8 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import static java.lang.Integer.valueOf;
+
 public class EventService implements CRUD<Event> {
     private Connection cnx;
 
@@ -17,6 +19,7 @@ public class EventService implements CRUD<Event> {
     }
     @Override
     public boolean insert(Event event) throws SQLException {
+
         String req = "INSERT INTO event (id,title, adresse, description, picture, startDate, endDate, nb_ticket) " +
                 "VALUES ('" + event.getId() + "','"  + event.getTitle() + "','" + event.getAdresse() + "','" + event.getDescription() +"','" + event.getPicture()
                 +"','" + event.getStartDate() +"','" + event.getEndDate() +"','" + event.getNb_ticket() + "')";

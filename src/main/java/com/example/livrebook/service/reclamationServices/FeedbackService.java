@@ -81,7 +81,12 @@ public class FeedbackService implements CRUD<FeedBack> {
         return feedbacks;
     }
 
-<<<<<<< HEAD
+    @Override
+    public List<FeedBack> selectWherePending() throws SQLException {
+        return null;
+    }
+
+
     public void removeFeedback(FeedBack feedback) throws SQLException {
         String sql = "DELETE FROM feedback WHERE id = ?"; // Supposons que 'id' est la clé primaire de votre table feedback
 
@@ -97,10 +102,7 @@ public class FeedbackService implements CRUD<FeedBack> {
                 System.out.println("Réclamation supprimée avec succès.");
             }
         }
-=======
-    @Override
-    public List<FeedBack> selectWherePending() throws SQLException {
-        return null;
->>>>>>> c7ee48fb5afd8351520392dac3d47e718021d104
+
+
     }
 }

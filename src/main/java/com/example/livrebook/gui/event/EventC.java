@@ -4,6 +4,7 @@ import com.example.livrebook.model.event.Event;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -11,10 +12,14 @@ import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
+import javafx.scene.paint.Color;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
-public class EventC {
+import java.net.URL;
+import java.util.ResourceBundle;
+
+public class EventC implements Initializable {
 
     @FXML
     private Button btn_buy;
@@ -36,12 +41,28 @@ public class EventC {
 
     public void setData(com.example.livrebook.model.event.Event event ){
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/livrebook/Event/Client_event.fxml"));
-        if (event.getPicture() != null) {
-            Image image = new Image((getClass().getResourceAsStream(event.getPicture())));
+
+
+        String imagePath = event.getPicture();
+        System.out.println(imagePath);
+        if (imagePath != null && !imagePath.isEmpty()) {
+            // Construire le chemin d'accès complet avec le préfixe file:///
+            String fullImagePath = "/com/example/livrebook/image/images/"+imagePath;
+            System.out.println(fullImagePath);
+
+            Image image = new Image(getClass().getResourceAsStream(fullImagePath));
+// Chargement de l'image à partir du chemin d'accès local
+
+
+
             eventImage.setImage(image);}
         eventTitle.setText(event.getTitle());
 
-        eventAdress.setText(event.getAdresse());
+        if (event.getNb_ticket()==0){
+            eventAdress.setText("Solde Out ");
+            eventAdress.setStyle("-fx-text-fill: red;");
+        }else {
+            eventAdress.setText(event.getAdresse());}
         reserveButton.setOnAction(e -> reserveButtonClicked(e, event));
 
     }
@@ -69,5 +90,11 @@ public class EventC {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+
     }
 }

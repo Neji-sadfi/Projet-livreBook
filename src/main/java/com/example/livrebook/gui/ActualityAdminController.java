@@ -132,7 +132,7 @@ public class ActualityAdminController {
                 if (newSelection != null) {
                     TfTitle.setText(newSelection.getTitle());
                     tfDesc.setText(newSelection.getDescription());
-                    IdDate.setValue(newSelection.getDate().toLocalDate());
+                    //IdDate.setValue(newSelection.getDate());
                 }
             });
 

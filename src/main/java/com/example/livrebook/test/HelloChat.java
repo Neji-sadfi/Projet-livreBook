@@ -12,7 +12,7 @@ public class HelloChat extends Application {
     public void start(Stage stage) throws IOException {
 
         // Load the chatbot_interface.fxml
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/livrebook/admin-rec.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/livrebook/chatbot_interface.fxml"));
         Parent root = loader.load();
         Stage chatbotStage = new Stage();
         chatbotStage.setScene(new Scene(root));
