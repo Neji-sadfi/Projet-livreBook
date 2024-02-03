@@ -1,28 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.livrebook.gui.delivery.DeliveryController">
+<AnchorPane prefHeight="700.0" prefWidth="1014.0" stylesheets="@DeliveryStylesheet.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.livrebook.gui.delivery.DeliveryController">
    <children>
-      <AnchorPane layoutX="22.0" layoutY="64.0" prefHeight="230.0" prefWidth="458.0" style="-fx-background-color: #0522;" stylesheets="@DeliveryStylesheet.css">
+      <AnchorPane layoutX="16.0" layoutY="41.0" prefHeight="606.0" prefWidth="1006.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="41.0">
          <children>
-            <TableView fx:id="_idTableView" layoutX="7.0" layoutY="8.0" onSort="#onDisplayDelivey" prefHeight="200.0" prefWidth="338.0" stylesheets="@DeliveryStylesheet.css">
-              <columns>
-                <TableColumn id="column-header" prefWidth="127.2000732421875" text="Status" />
-                <TableColumn minWidth="0.0" prefWidth="209.60001220703123" text="OrderBy" />
-              </columns>
-            </TableView>
-            <Button fx:id="_idAddButton" layoutX="377.0" layoutY="52.0" mnemonicParsing="false" onAction="#onAddDelivery" prefHeight="26.0" prefWidth="59.0" style="-fx-background-color: green; -fx-font-style: white;" stylesheets="@DeliveryStylesheet.css" text="Add" />
-            <Button fx:id="_idRemoveButton" layoutX="377.0" layoutY="89.0" mnemonicParsing="false" onAction="#onRemoveDelivery" style="-fx-background-color: red;" stylesheets="@DeliveryStylesheet.css" text="Remove" />
-         </children>
-      </AnchorPane>
-      <AnchorPane layoutX="550.0" layoutY="64.0" prefHeight="302.0" prefWidth="194.0" style="-fx-background-color: #1213;" stylesheets="@DeliveryStylesheet.css">
-         <children>
-            <ListView fx:id="_idListeView" layoutX="5.0" layoutY="20.0" prefHeight="262.0" prefWidth="185.0" />
+            <AnchorPane layoutX="1.0" layoutY="14.0" prefHeight="327.0" prefWidth="1008.0" stylesheets="@DeliveryStylesheet.css">
+               <children>
+                  <TableView fx:id="_idTableView" layoutX="14.0" layoutY="22.0" prefHeight="262.0" prefWidth="833.0" stylesheets="@DeliveryStylesheet.css">
+                    <columns>
+                      <TableColumn id="column-header" fx:id="idStatus" prefWidth="111.99998474121094" style="-fx-color: #FFEDC2;" text="Status" />
+                        <TableColumn fx:id="idAddress" minWidth="0.0" prefWidth="176.800048828125" style="-fx-color: #FFEDC2;" text="Addresse" />
+                      <TableColumn fx:id="idOrderBy" minWidth="0.0" prefWidth="132.800048828125" style="-fx-color: #FFEDC2;" text="Commandé par" />
+                        <TableColumn fx:id="idPaymentStatus" prefWidth="135.20001220703125" style="-fx-color: #FFEDC2;" text="Stauts de payement" />
+                        <TableColumn fx:id="idPaymentMethod" prefWidth="160.79998779296875" style="-fx-color: #FFEDC2;" text="Methode de payment" />
+                        <TableColumn fx:id="idTotal" prefWidth="115.20001220703125" style="-fx-color: #FFEDC2;" text="Total" />
+                    </columns>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </TableView>
+                  <Button fx:id="_idAddButton" layoutX="878.0" layoutY="30.0" mnemonicParsing="false" onAction="#onAddDelivery" prefHeight="26.0" prefWidth="71.0" style="-fx-background-color: green; -fx-font-style: white;" stylesheets="@DeliveryStylesheet.css" text="Ajouter" textFill="#fffefe" />
+                  <Button fx:id="_idRemoveButton" layoutX="878.0" layoutY="76.0" mnemonicParsing="false" onAction="#onRemoveDelivery" style="-fx-background-color: red;" stylesheets="@DeliveryStylesheet.css" text="Supprimer" textFill="#fffdfd" />
+                  <Button fx:id="_idDeliveredButton" layoutX="878.0" layoutY="140.0" mnemonicParsing="false" onAction="#onAddDelivred" prefHeight="26.0" prefWidth="79.0" text="Livré" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="7.0" layoutY="327.0" prefHeight="234.0" prefWidth="488.0" stylesheets="@DeliveryStylesheet.css">
+               <children>
+                  <ListView fx:id="_idListeView" layoutX="4.0" layoutY="54.0" prefHeight="163.0" prefWidth="482.0">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ListView>
+                  <Label layoutX="153.0" layoutY="23.0" prefHeight="17.0" prefWidth="88.0" stylesheets="@DeliveryStylesheet.css" text="à Livrer">
+                     <font>
+                        <Font name="Calibri Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="511.0" layoutY="343.0" prefHeight="214.0" prefWidth="397.0" AnchorPane.rightAnchor="10.0">
+               <children>
+                  <ListView fx:id="_idDelivredTableView" layoutX="6.0" layoutY="37.0" prefHeight="163.0" prefWidth="488.0" AnchorPane.rightAnchor="0.39999999999997726">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </ListView>
+                  <Label layoutX="173.0" layoutY="5.0" prefHeight="17.0" prefWidth="88.0" stylesheets="@DeliveryStylesheet.css" text="Livrés">
+                     <font>
+                        <Font name="Calibri Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
          </children>
       </AnchorPane>
    </children>

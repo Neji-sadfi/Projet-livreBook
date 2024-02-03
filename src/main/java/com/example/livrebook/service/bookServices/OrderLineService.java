@@ -75,4 +75,9 @@ import java.util.List;
             }
             return orderLines;
         }
+
+        @Override
+        public List<OrderLine> selectWherePending() throws SQLException {
+            return null;
+        }
     }

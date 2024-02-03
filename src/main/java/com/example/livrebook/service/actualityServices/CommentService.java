@@ -69,4 +69,9 @@ public class CommentService implements CRUD<Comment> {
         }
         return comments;
     }
+
+    @Override
+    public List<Comment> selectWherePending() throws SQLException {
+        return null;
+    }
 }

@@ -68,4 +68,11 @@ import java.util.List;
             }
             return bookQuantities;
         }
+
+        @Override
+        public List<BookQuantity> selectWherePending() throws SQLException {
+            return null;
+        }
+
+
     }

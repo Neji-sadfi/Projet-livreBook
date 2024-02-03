@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="976.0" stylesheets="@Design.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.livrebook.gui.event.EventController">
+
+    <children>
+      <VBox layoutX="19.0" layoutY="38.0" prefHeight="456.0" prefWidth="85.0" spacing="15.0">
+         <children>
+              <Label prefHeight="18.0" prefWidth="99.0" text="titre" textFill="#101010">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+              </Label>
+      
+              <Label prefHeight="35.0" prefWidth="99.0" text="adresse">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+              </Label>
+      
+              <Label prefWidth="99.0" text="description">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+              </Label>
+      
+              <Label text="Image_Url">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+              </Label>
+      
+              <Label prefHeight="35.0" prefWidth="130.0" text="Date Début">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+              </Label>
+      
+              <Label prefHeight="35.0" prefWidth="99.0" text="Date Fin">
+                  <font>
+                      <Font size="14.0" />
+                  </font>
+              </Label>
+            <Label prefHeight="35.0" prefWidth="99.0" text="nb_ticket">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+
+        <Button id="btn_add" fx:id="btn_add" layoutX="19.0" layoutY="360.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="35.0" prefWidth="130.0" text="Ajouter" />
+        <Button id="btn_update" fx:id="btn_update" layoutX="215.0" layoutY="360.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="35.0" prefWidth="130.0" text="Modifier" />
+      <VBox layoutX="124.0" layoutY="38.0" prefHeight="250.0" prefWidth="222.0" spacing="10.0">
+         <children>
+
+              <TextField id="Event_title" fx:id="event_title" prefHeight="35.0" prefWidth="230.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+              <TextField id="Event_adresse" fx:id="Event_adress" prefHeight="35.0" prefWidth="230.0" />
+              <TextField id="Event_desc" fx:id="Event_desc" prefHeight="35.0" prefWidth="230.0" />
+              <TextField id="Event_pic" fx:id="Event_pic" prefHeight="35.0" prefWidth="230.0" />
+              <DatePicker id="Event_start" fx:id="Event_start" prefHeight="35.0" prefWidth="230.0" />
+              <DatePicker id="Event_end" fx:id="Event_end" prefHeight="35.0" prefWidth="230.0" />
+         </children>
+      </VBox>
+      <TableView fx:id="tvEvent" layoutX="409.0" layoutY="76.0" onMouseClicked="#mouseClicked" prefHeight="490.0" prefWidth="505.0">
+        <columns>
+          <TableColumn fx:id="colTitle" prefWidth="84.800048828125" text="Titre" />
+          <TableColumn fx:id="colAdress" prefWidth="87.99996948242188" text="Adresse" />
+            <TableColumn fx:id="colDesc" prefWidth="100.79998779296875" text="Description" />
+            <TableColumn fx:id="colPic" prefWidth="72.800048828125" text="image" />
+            <TableColumn fx:id="colStart" prefWidth="82.4000244140625" text="Date debut" />
+            <TableColumn fx:id="colEnd" prefWidth="71.99992675781249" text="date fin" />
+        </columns>
+      </TableView>
+      <Button id="btn_delete" fx:id="btn_delete" layoutX="124.0" layoutY="445.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="35.0" prefWidth="130.0" text="Supprimer" />
+      <TextField id="searchId" fx:id="searchId" layoutX="501.0" layoutY="38.0" prefHeight="26.0" prefWidth="352.0" />
+      <Label layoutX="418.0" layoutY="41.0" prefHeight="18.0" prefWidth="62.0" text="Search">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField id="nb_ticket" fx:id="nb_ticket" layoutX="121.0" layoutY="300.0" prefHeight="30.0" prefWidth="229.0" />
+    </children>
+</AnchorPane>

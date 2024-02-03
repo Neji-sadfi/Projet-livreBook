@@ -21,11 +21,15 @@
     </repositories>
 
     <dependencies>
+
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
             <version>17.0.6</version>
         </dependency>
+
+
+
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
@@ -47,6 +51,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
         <dependency>
             <groupId>org.kordamp.ikonli</groupId>
             <artifactId>ikonli-javafx</artifactId>
@@ -81,13 +86,12 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-        <!-- Vos autres dépendances -->
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-controls</artifactId>
-            <version>17.0.6</version>
-        </dependency>
+
     </dependencies>
+
+
+
+
 
     <build>
         <plugins>

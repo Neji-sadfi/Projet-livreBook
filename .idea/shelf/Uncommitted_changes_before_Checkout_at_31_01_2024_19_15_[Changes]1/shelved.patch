@@ -1,0 +1,218 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"ee710a30-50d9-4074-800f-a0b2e8e0d926\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/FeedController.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloChat.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/livrebook/chatbot_interface.fxml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/resources/com/example/livrebook/style.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloApplication.java\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/example/livrebook/test/MainClass.java\" beforeDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n        <option value=\"CSS File\" />\n        <option value=\"FxmlFile\" />\n        <option value=\"CSS File\" />\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"file://$PROJECT_DIR$/src/main/resources/com/example/livrebook/chatbot_interface.fxml\" root0=\"SKIP_HIGHLIGHTING\" />\n  </component>\n  <component name=\"MavenImportPreferences\">\n    <option name=\"generalSettings\">\n      <MavenGeneralSettings>\n        <option name=\"mavenHome\" value=\"Use Maven wrapper\" />\n      </MavenGeneralSettings>\n    </option>\n  </component>\n  <component name=\"ProblemsViewState\">\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\n  </component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 6\n}</component>\n  <component name=\"ProjectId\" id=\"2atwDP8uilfHDkasGu2kPmM9QNO\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;Application.DeliveryTest.executor&quot;: &quot;Run&quot;,\n    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,\n    &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;main&quot;,\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fekri Hamdi/Desktop/Projet-livreBook/src/main/resources/com/example/livrebook&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;Ala&quot;,\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/LivreBook/lib/mysql-connector-j-8.0.31.jar&quot;,\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;tastas&quot;,\n    &quot;last_directory_selection&quot;: &quot;C:/Users/user/Desktop/ProjetJava/Projet-livreBook/src/main/java/com&quot;,\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Downloads/JFoenix-master.zip&quot;,\n    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\n    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,\n    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,\n    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\Fekri Hamdi\\Desktop\\Projet-livreBook\\src\\main\\resources\\com\\example\\livrebook\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\user\\IdeaProjects\\LivreBook\\src\\main\\java\\com\\example\\livrebook\" />\n    </key>\n    <key name=\"MoveClassesOrPackagesDialog.RECENTS_KEY\">\n      <recent name=\"com.example.livrebook\" />\n    </key>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"jdk-17.0.9-jbr-17.0.9-f644763e9732-163ff1ef\" />\n        <option value=\"jdk-17.0.9-jbr-17.0.9-f644763e9732-e10f1064\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"ee710a30-50d9-4074-800f-a0b2e8e0d926\" name=\"Changes\" comment=\"\" />\n      <created>1705151064718</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1705151064718</updated>\n      <workItem from=\"1705151065757\" duration=\"249000\" />\n      <workItem from=\"1705151322932\" duration=\"3966000\" />\n      <workItem from=\"1705158202616\" duration=\"272000\" />\n      <workItem from=\"1705158491095\" duration=\"2738000\" />\n      <workItem from=\"1705742665990\" duration=\"4037000\" />\n      <workItem from=\"1705521848116\" duration=\"2104000\" />\n      <workItem from=\"1705653462930\" duration=\"2286000\" />\n      <workItem from=\"1705658764016\" duration=\"2741000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision d7654ae9be5f368075c2cf9084b725d4b3a00867)
++++ b/.idea/workspace.xml	(date 1706724912883)
+@@ -4,17 +4,61 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="ee710a30-50d9-4074-800f-a0b2e8e0d926" name="Changes" comment="">
++    <list default="true" id="029d1c18-bfb9-4b65-993a-d3c136e2dd0d" name="Changes" comment="">
+       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/ActualityAdminController.java" afterDir="false" />
+       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/FeedController.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/delivery/DeliveryController.java" afterDir="false" />
+       <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloChat.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/actuality/ActualityAdminView.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/Delivery.fxml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Delivery/DeliveryStylesheet.css" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/actuality/Actuality-view.fxml" afterDir="false" />
+       <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/chatbot_interface.fxml" afterDir="false" />
+       <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/style.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloApplication.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/MainClass.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/HelloController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/SideBareController.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/CardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/CardController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/ClientEventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/ClientEventController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/EventC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/EventC.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/EventController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/gui/event/TicketController.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/actuality/Actuality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/actuality/Actuality.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/event/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/event/Event.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/event/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/model/event/Ticket.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/EventService.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/service/eventServices/TicketService.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/EventApplication.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/HelloApplication.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/SideBareApplication.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/Test.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/TicketApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/TicketApplication.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/delivery/DeliveryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/livrebook/test/delivery/DeliveryTest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Card.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Card.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Client_event.fxml" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Design.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Design.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Event.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Event.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Ticket.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/Ticket.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/event-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Event/event-view.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Side-bare.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/Side-bare.fxml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/2019-03-BLOG-Whirlikids-2-700x300.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/9780226439785.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/add.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/backup.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/book-festival-concept-little-girl-600nw-2182861533.webp" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/book-festival-concept-young-woman-600nw-2183387573.webp" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/burger.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/data.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/exit.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/home.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/istockphoto-1162698015-612x612.jpg" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/setting.png" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/livrebook/image/images/user.png" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -26,9 +70,6 @@
+       <list>
+         <option value="Class" />
+         <option value="CSS File" />
+-        <option value="FxmlFile" />
+-        <option value="CSS File" />
+-        <option value="Class" />
+       </list>
+     </option>
+   </component>
+@@ -57,42 +98,12 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;Application.DeliveryTest.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
+-    &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fekri Hamdi/Desktop/Projet-livreBook/src/main/resources/com/example/livrebook&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;Ala&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/LivreBook/lib/mysql-connector-j-8.0.31.jar&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;tastas&quot;,
+-    &quot;last_directory_selection&quot;: &quot;C:/Users/user/Desktop/ProjetJava/Projet-livreBook/src/main/java/com&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Downloads/JFoenix-master.zip&quot;,
+-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "git-widget-placeholder": "Merging tastas",
++    "node.js.selected.package.tslint": "(autodetect)"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\Fekri Hamdi\Desktop\Projet-livreBook\src\main\resources\com\example\livrebook" />
+@@ -104,13 +115,67 @@
+       <recent name="com.example.livrebook" />
+     </key>
+   </component>
+-  <component name="SharedIndexes">
+-    <attachedChunks>
+-      <set>
+-        <option value="jdk-17.0.9-jbr-17.0.9-f644763e9732-163ff1ef" />
+-        <option value="jdk-17.0.9-jbr-17.0.9-f644763e9732-e10f1064" />
+-      </set>
+-    </attachedChunks>
++  <component name="RunManager" selected="Application.EventApplication">
++    <configuration name="EventApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.example.livrebook.test.EventApplication" />
++      <module name="LivreBook" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.example.livrebook.test.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.example.livrebook.test.HelloApplication" />
++      <module name="LivreBook" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.example.livrebook.test.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.example.livrebook.test.MainClass" />
++      <module name="LivreBook" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.example.livrebook.test.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="SideBareApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.example.livrebook.test.SideBareApplication" />
++      <module name="LivreBook" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.example.livrebook.test.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.MainClass" />
++        <item itemvalue="Application.HelloApplication" />
++        <item itemvalue="Application.EventApplication" />
++        <item itemvalue="Application.SideBareApplication" />
++      </list>
++    </recent_temporary>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -125,9 +190,6 @@
+       <workItem from="1705158202616" duration="272000" />
+       <workItem from="1705158491095" duration="2738000" />
+       <workItem from="1705742665990" duration="4037000" />
+-      <workItem from="1705521848116" duration="2104000" />
+-      <workItem from="1705653462930" duration="2286000" />
+-      <workItem from="1705658764016" duration="2741000" />
+     </task>
+     <servers />
+   </component>
