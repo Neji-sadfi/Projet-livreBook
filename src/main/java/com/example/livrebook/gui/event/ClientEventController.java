@@ -74,7 +74,7 @@ public class ClientEventController implements Initializable {
                     .collect(Collectors.toList());
 
             // Get the first 5 events (or less if there are fewer than 5 events)
-            return sortedEvents.stream().limit(5).collect(Collectors.toList());
+            return sortedEvents.stream().limit(4).collect(Collectors.toList());
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
@@ -92,7 +92,7 @@ public class ClientEventController implements Initializable {
 
             // Skip the last 5 events
             List<Event> eventsExcludingLast5 = sortedEvents.stream()
-                    .skip(5)
+                    .skip(4)
                     .collect(Collectors.toList());
 
             return eventsExcludingLast5;

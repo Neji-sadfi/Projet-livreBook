@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.livrebook.gui.book.backOffice.OrderAdminController">
+    <children>
+        <AnchorPane fx:id="main_pane" layoutX="116.0" layoutY="29.0" prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <AnchorPane layoutX="9.0" layoutY="14.0" prefHeight="330.0" prefWidth="874.0" stylesheets="@../MainCssFile.css" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                    <!-- Tableau des commandes -->
+                    <children>
+                        <TableView fx:id="orderTable" layoutX="9.0" layoutY="4.0" prefHeight="379.0" prefWidth="970.0" AnchorPane.bottomAnchor="-59.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                            <columns>
+                                <TableColumn fx:id="order_userId" prefWidth="97.60003662109375" text="Nom du Client" />
+                                <TableColumn fx:id="user_Email" prefWidth="288.8000259399414" text="Email Client" />
+                                <TableColumn fx:id="order_orderDate" prefWidth="116.00003051757812" text="Date de commande" />
+                                <TableColumn fx:id="order_orderStatus" prefWidth="140.79998779296875" text="Statut de Commande" /> <!-- Add this line -->
+                                <TableColumn fx:id="order_paymentMethod" prefWidth="136.0" text="Méthode de Paiement" />
+                                <TableColumn fx:id="order_totalPrice" prefWidth="85.60009765625" text="Total Prix" />
+                            </columns>
+                            <columnResizePolicy>
+                                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                            </columnResizePolicy>
+                        </TableView>
+                    </children>
+                </AnchorPane>
+                <AnchorPane layoutX="9.0" layoutY="354.0" prefHeight="295.0" prefWidth="990.0" stylesheets="@../MainCssFile.css" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
+                    <children>
+                        <Label layoutX="115.0" layoutY="72.0" prefHeight="20.0" prefWidth="114.0" text="Nom  Client :">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="form_userName" layoutX="229.0" layoutY="69.0" />
+                        <Label layoutX="417.0" layoutY="114.0" prefHeight="20.0" prefWidth="150.0" text="Date de Commande :">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <DatePicker fx:id="form_orderDate" layoutX="578.0" layoutY="111.0" prefWidth="150.0" />
+                        <Label layoutX="115.0" layoutY="114.0" prefHeight="20.0" prefWidth="94.0" text="Email Client :">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <TextField fx:id="form_userEmail" layoutX="229.0" layoutY="111.0" />
+                        <Label layoutX="410.0" layoutY="69.0" prefHeight="20.0" prefWidth="150.0" text="Méthode de Paiement :">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Label>
+                        <ComboBox fx:id="form_paymentMethod" layoutX="578.0" layoutY="69.0" prefHeight="26.0" prefWidth="150.0">
+                            <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                    <String fx:value="En ligne" />
+                                    <String fx:value="à la livraison" />
+                                </FXCollections>
+                            </items>
+                        </ComboBox>
+                        <Button fx:id="search_btn" layoutX="314.0" layoutY="184.0" mnemonicParsing="false" onAction="#searchOrders" prefHeight="43.0" prefWidth="80.0" styleClass="btn" stylesheets="@../MainCssFile.css" text="Chercher" />
+                        <Button fx:id="clear_btn" layoutX="446.0" layoutY="184.0" mnemonicParsing="false" onAction="#clearForm" prefHeight="43.0" prefWidth="80.0" styleClass="btn" stylesheets="@../MainCssFile.css" text="Vider" />
+                        <Label layoutX="21.0" layoutY="14.0" prefHeight="30.0" prefWidth="263.0" stylesheets="@../MainCssFile.css" text="Chercher des Commandes">
+                            <font>
+                                <Font name="System Bold Italic" size="20.0" />
+                            </font>
+                            <styleClass>
+                                <String fx:value="label" />
+                                <String fx:value="white-bg" />
+                                <String fx:value="transparent" />
+                            </styleClass>
+                        </Label>
+                  <Button fx:id="delivery_btn" layoutX="577.0" layoutY="184.0" mnemonicParsing="false" onAction="#deliverOrder" prefHeight="43.0" prefWidth="80.0" styleClass="btn" stylesheets="@../MainCssFile.css" text="Livrer" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

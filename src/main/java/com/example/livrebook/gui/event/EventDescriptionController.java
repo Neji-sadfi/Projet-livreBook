@@ -73,7 +73,7 @@ public class EventDescriptionController  implements Initializable {
     @FXML
     void addTicket(ActionEvent event) throws WriterException, IOException, SQLException, DocumentException {
 
-        String data = "https://thatsthefinger.com/";
+        String data = "https://www.rrrgggbbb.com/";
         String path = "C:\\Users\\user\\Desktop\\QR-Code\\infybuzz.jpg";
         BitMatrix matrix = new MultiFormatWriter()
                 .encode(data, BarcodeFormat.QR_CODE, 500, 500);
@@ -192,6 +192,7 @@ public class EventDescriptionController  implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
         this.ticketService = new TicketService();
         this.eventService = new EventService();
+        setData();
 
     }
 
@@ -209,10 +210,19 @@ public class EventDescriptionController  implements Initializable {
 
 
         if (receivedEvent != null) {
-            if (ticket_photo != null) {
-            javafx.scene.image.Image image = new javafx.scene.image.Image((getClass().getResourceAsStream(receivedEvent.getPicture())));
+            String imagePath = receivedEvent.getPicture();
+            System.out.println(imagePath);
+            if (imagePath != null && !imagePath.isEmpty()) {
 
-            ticket_photo.setImage(image);}
+                String fullImagePath = "/com/example/livrebook/image/images/"+imagePath;
+                System.out.println(fullImagePath);
+
+                javafx.scene.image.Image image = new javafx.scene.image.Image(getClass().getResourceAsStream(fullImagePath));
+
+
+
+
+                ticket_photo.setImage(image);}
             ticket_title.setText(receivedEvent.getTitle());
             String date = String.valueOf(receivedEvent.getStartDate());
             ticket_start.setText(date);
@@ -221,7 +231,11 @@ public class EventDescriptionController  implements Initializable {
             ticket_adresse.setText(receivedEvent.getAdresse());
             ticket_description.setText(receivedEvent.getDescription());
             ticket_price.setText(String.valueOf(hashCode()));
-
+            if (receivedEvent.getNb_ticket()==0){
+                nb_ticket.setText("solde out");
+                nb_ticket.setStyle("-fx-text-fill: red;");
+            }else {
+            nb_ticket.setText(String.valueOf(receivedEvent.getNb_ticket()));}
             System.out.println(receivedEvent);
         } else {
             // Handle the case where receivedEvent is null
@@ -232,6 +246,7 @@ public class EventDescriptionController  implements Initializable {
             ticket_adresse.setText("");
             ticket_description.setText("");
             ticket_price.setText("");
+            nb_ticket.setText("");
         }
     }
 

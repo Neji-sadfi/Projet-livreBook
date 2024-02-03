@@ -1,6 +1,7 @@
 package com.example.livrebook.model.book;
 
 import java.sql.Date;
+import java.util.List;
 
 public class Orders {
     private int id;
@@ -10,8 +11,6 @@ public class Orders {
     private String paymentMethod;
     private int totalPrice;
 
-    public Orders() {
-    }
 
     public Orders(int id, int userId, Date orderDate, String orderStatus, String paymentMethod, int totalPrice) {
         this.id = id;
@@ -22,12 +21,7 @@ public class Orders {
         this.totalPrice = totalPrice;
     }
 
-    public Orders(int userId, Date orderDate, String orderStatus, String paymentMethod, int totalPrice) {
-        this.userId = userId;
-        this.orderDate = orderDate;
-        this.orderStatus = orderStatus;
-        this.paymentMethod = paymentMethod;
-        this.totalPrice = totalPrice;
+    public Orders() {
     }
 
     public int getId() {
@@ -78,10 +72,13 @@ public class Orders {
         this.totalPrice = totalPrice;
     }
 
+
+
     @Override
     public String toString() {
-        return "Order{" +
-                "userId=" + userId +
+        return "Orders{" +
+                "id=" + id +
+                ", userId=" + userId +
                 ", orderDate=" + orderDate +
                 ", orderStatus='" + orderStatus + '\'' +
                 ", paymentMethod='" + paymentMethod + '\'' +

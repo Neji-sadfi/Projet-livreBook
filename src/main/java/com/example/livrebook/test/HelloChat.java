@@ -14,14 +14,14 @@ public class HelloChat extends Application {
         // Load the chatbot_interface.fxml
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/livrebook/chatbot_interface.fxml"));
         Parent root = loader.load();
-
         Stage chatbotStage = new Stage();
-        chatbotStage.setScene(new Scene(root, 600, 400));
-        chatbotStage.setTitle("Votre Chatbot");
+        chatbotStage.setScene(new Scene(root));
+        chatbotStage.setTitle("Espace Réclamation");
 
         Scene scene = null;
         stage.setScene(scene);
         chatbotStage.show();
+
     }
 
     public static void main(String[] args) {
