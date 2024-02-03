@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="525.0" prefWidth="201.0" styleClass="white-bg" stylesheets="@../MainCssFile.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.livrebook.gui.book.backOffice.AddBookPopupController">
+    <children>
+        <VBox prefHeight="526.0" prefWidth="246.0" spacing="10" stylesheets="@../MainCssFile.css">
+            <!-- ... Vos autres éléments ... -->
+
+            <HBox spacing="5">
+                <Label text="Titre:" />
+                <TextField fx:id="form_title" prefHeight="26.0" prefWidth="113.0" promptText="Titre" styleClass="radius white-bg" />
+            </HBox>
+
+            <HBox spacing="5">
+                <Label text="Auteur:" />
+                <TextField fx:id="form_actor" promptText="Auteur" styleClass="radius white-bg" />
+            </HBox>
+
+            <HBox spacing="5">
+                <Label text="Catégorie:" />
+                <ComboBox fx:id="categoriesL" prefWidth="150.0" promptText="Choisir la catégorie" styleClass="radius white-bg" />
+            </HBox>
+
+            <!-- Ajoutez des HBox similaires pour chaque attribut avec le label correspondant -->
+
+            <HBox spacing="5">
+                <Label text="Prix Dt:" />
+                <TextField fx:id="form_price" promptText="0.0 Dt" styleClass="radius white-bg" />
+            </HBox>
+
+            <HBox spacing="5">
+                <Label text="Quantité:" />
+                <TextField fx:id="form_quantity" promptText="0" styleClass="radius white-bg" />
+            </HBox>
+
+            <HBox spacing="5">
+                <Label text="Description:" />
+                <TextField fx:id="form_summary" styleClass="radius white-bg" />
+            </HBox>
+
+            <HBox spacing="5">
+                <Label text="Langue:" />
+                <ComboBox fx:id="languagesL" prefHeight="26.0" prefWidth="150.0" promptText="Choisir la langue" styleClass="radius white-bg" />
+            </HBox>
+
+            <HBox spacing="5">
+                <Label text="Date:" />
+                <DatePicker fx:id="form_date" styleClass="radius white-bg" />
+            </HBox>
+
+            <AnchorPane layoutX="721.0" layoutY="21.0" prefHeight="126.0" prefWidth="219.0" stylesheets="@../MainCssFile.css">
+                <styleClass>
+                    <String fx:value="white-bg" />
+                    <String fx:value="shadow" />
+                </styleClass>
+                <children>
+                    <ImageView fx:id="book_imageView" fitHeight="126.0" fitWidth="224.0" layoutX="14.0" pickOnBounds="true" preserveRatio="false" />
+                </children>
+            </AnchorPane>
+
+            <HBox alignment="CENTER" spacing="10">
+                <Button onAction="#importImage" prefHeight="26.0" prefWidth="102.0" styleClass="btn" text="Importer" />
+            </HBox>
+
+            <HBox alignment="CENTER" spacing="10">
+                <Button onAction="#insertBook" styleClass="btn" text="Ajouter" />
+            </HBox>
+        </VBox>
+    </children>
+</AnchorPane>

@@ -3,20 +3,29 @@ package com.example.livrebook.model.book;
 public class BookQuantity {
     private int bookQuantityId;
     private int bookId;
-    private int quantity;
+    private int bookQuantity;
 
     public BookQuantity() {
     }
 
-    public BookQuantity(int bookQuantityId, int bookId, int quantity) {
+    @Override
+    public String toString() {
+        return "BookQuantity{" +
+                "bookQuantityId=" + bookQuantityId +
+                ", bookId=" + bookId +
+                ", quantity=" + bookQuantity +
+                '}';
+    }
+
+    public BookQuantity(int bookQuantityId, int bookId, int bookQuantity) {
         this.bookQuantityId = bookQuantityId;
         this.bookId = bookId;
-        this.quantity = quantity;
+        this.bookQuantity = bookQuantity;
     }
 
     public BookQuantity(int bookId, int quantity) {
         this.bookId = bookId;
-        this.quantity = quantity;
+        this.bookQuantity = quantity;
     }
 
     public int getBookQuantityId() {
@@ -35,20 +44,12 @@ public class BookQuantity {
         this.bookId = bookId;
     }
 
-    public int getQuantity() {
-        return quantity;
+    public int getbookQuantity() {
+        return bookQuantity;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public void setbookQuantity(int quantity) {
+        this.bookQuantity = quantity;
     }
 
-    @Override
-    public String toString() {
-        return "BookQuantity{" +
-                "bookQuantityId=" + bookQuantityId +
-                ", bookId=" + bookId +
-                ", quantity=" + quantity +
-                '}';
-    }
 }
