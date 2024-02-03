@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="683.0" prefWidth="463.0" stylesheets="@design.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.livrebook.gui.FXMLDocumentController">
+   <children>
+      <AnchorPane fx:id="main_form" prefHeight="709.0" prefWidth="505.0" stylesheets="@design.css">
+         <children>
+            <AnchorPane fx:id="login_form" layoutX="10.0" layoutY="36.0" prefHeight="650.0" prefWidth="442.0" visible="false">
+               <children>
+                  <TextField fx:id="login_showpassword" layoutX="81.0" layoutY="218.0" prefHeight="39.0" prefWidth="290.0" />
+                  <Label layoutX="126.0" layoutY="80.0" text="Sign In Account" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="27.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="login_username" layoutX="81.0" layoutY="149.0" prefHeight="39.0" prefWidth="290.0" promptText="Username" />
+                  <PasswordField fx:id="login_password" layoutX="81.0" layoutY="218.0" prefHeight="39.0" prefWidth="290.0" promptText="Password" />
+                  <CheckBox fx:id="login_selectshowpassword" layoutX="81.0" layoutY="337.0" mnemonicParsing="false" onAction="#showPassword" text="Show Password" />
+                  <Button fx:id="login_btn" layoutX="81.0" layoutY="387.0" mnemonicParsing="false" onAction="#login" prefHeight="39.0" prefWidth="290.0" text="Sign In" />
+                  <Label layoutX="151.0" layoutY="512.0" prefHeight="28.0" prefWidth="150.0" text="Register Account">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="login_createAccount" layoutX="81.0" layoutY="547.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="39.0" prefWidth="290.0" text="Create Account" />
+                  <Hyperlink fx:id="login_forgotpassword" layoutX="255.0" layoutY="337.0" onAction="#switchForm" text="Forgot Password?" />
+                  <ChoiceBox fx:id="login_choiceBox" layoutX="81.0" layoutY="289.0" prefHeight="39.0" prefWidth="290.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="signup_form" layoutX="10.0" layoutY="7.0" prefHeight="715.0" prefWidth="442.0">
+               <children>
+                  <Label layoutX="115.0" layoutY="21.0" text="Sign Up Account" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="27.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="signup_email" layoutX="78.0" layoutY="172.0" prefHeight="39.0" prefWidth="290.0" promptText="Email Address" />
+                  <Button fx:id="signup_btn" layoutX="78.0" layoutY="581.0" mnemonicParsing="false" onAction="#register" prefHeight="39.0" prefWidth="290.0" text="Sign Up" />
+                  <Label layoutX="163.0" layoutY="615.0" prefHeight="28.0" prefWidth="150.0" text="Sign In Account">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="signup_loginaccount" layoutX="76.0" layoutY="643.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="39.0" prefWidth="290.0" text="Login Account" />
+                  <TextField fx:id="signup_username" layoutX="78.0" layoutY="66.0" prefHeight="39.0" prefWidth="290.0" promptText="Username" />
+                  <PasswordField fx:id="signup_confirmpass" layoutX="76.0" layoutY="378.0" prefHeight="39.0" prefWidth="290.0" promptText="Confirm Password" />
+                  <PasswordField fx:id="signup_password" layoutX="78.0" layoutY="330.0" prefHeight="39.0" prefWidth="290.0" promptText="Password" />
+                  <ComboBox fx:id="signup_selectQuestion" layoutX="76.0" layoutY="432.0" prefHeight="39.0" prefWidth="290.0" promptText="Select Question" />
+                  <TextField fx:id="signup_answer" layoutX="78.0" layoutY="480.0" prefHeight="39.0" prefWidth="290.0" promptText="Answer" />
+                  <TextField fx:id="signup_number" layoutX="78.0" layoutY="226.0" prefHeight="39.0" prefWidth="290.0" promptText="Phone Number" />
+
+                  <TextField fx:id="signup_gender" layoutX="78.0" layoutY="277.0" prefHeight="39.0" prefWidth="290.0" promptText="Gender" />
+                  <TextField fx:id="signup_lastname" layoutX="78.0" layoutY="117.0" prefHeight="39.0" prefWidth="290.0" promptText="Last name" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="forgot_form" layoutY="3.0" prefHeight="650.0" prefWidth="442.0" visible="false">
+               <children>
+                  <Label layoutX="120.0" layoutY="67.0" text="Forgot Password" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="27.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="forgot_proceedbtn" layoutX="81.0" layoutY="343.0" mnemonicParsing="false" onAction="#forgotPassword" prefHeight="39.0" prefWidth="290.0" text="Proceed" />
+                  <Button fx:id="forgot_backBtn" layoutX="81.0" layoutY="547.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="39.0" prefWidth="290.0" text="Back" />
+                  <TextField fx:id="forgot_answer" layoutX="81.0" layoutY="275.0" prefHeight="39.0" prefWidth="290.0" promptText="Answer" />
+                  <ComboBox fx:id="forgot_selectQuestion" layoutX="81.0" layoutY="228.0" prefHeight="39.0" prefWidth="290.0" promptText="Select Question" />
+                  <TextField fx:id="forgot_username" layoutX="81.0" layoutY="166.0" prefHeight="39.0" prefWidth="290.0" promptText="Username" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="changePass_form" layoutX="10.0" layoutY="13.0" prefHeight="650.0" prefWidth="442.0" visible="false">
+               <children>
+                  <Label layoutX="120.0" layoutY="67.0" text="Forgot Password" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="27.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="changePass_proceedBtn" layoutX="81.0" layoutY="333.0" mnemonicParsing="false" onAction="#changePassword" prefHeight="39.0" prefWidth="290.0" text="Proceed" />
+                  <Button fx:id="changePass_backBtn" layoutX="81.0" layoutY="547.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="39.0" prefWidth="290.0" text="Back" />
+                  <PasswordField fx:id="changePass_password" layoutX="81.0" layoutY="201.0" prefHeight="39.0" prefWidth="290.0" promptText="Password" />
+                  <PasswordField fx:id="changePass_confirmPass" layoutX="81.0" layoutY="265.0" prefHeight="39.0" prefWidth="290.0" promptText="Confirm Password" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

@@ -18,11 +18,11 @@ module com.example.livrebook {
     //requires com.jfoenix;
 
     opens com.example.livrebook to javafx.fxml;
+    opens com.example.livrebook.model.user to javafx.base; // Open this specific package
     exports com.example.livrebook.gui;
     opens com.example.livrebook.gui to javafx.fxml;
     exports com.example.livrebook.test;
     opens com.example.livrebook.test to javafx.fxml;
-
     exports com.example.livrebook.gui.book.backOffice;
     opens com.example.livrebook.gui.book.backOffice to javafx.fxml;
     opens com.example.livrebook.model.book to javafx.base;
@@ -51,7 +51,4 @@ module com.example.livrebook {
     opens com.example.livrebook.test.actuality to javafx.fxml;
     opens com.example.livrebook.model.event to javafx.base;
 }
-
-
-
 

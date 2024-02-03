@@ -1,45 +1,33 @@
 package com.example.livrebook.model.user;
 
-import java.util.Date;
-
 public class User {
     private int id;
     private String first_name;
     private String last_name;
     private String email;
-    private Date birthDate;
+   // private LocalDate birthDate;
     private String gender;
     private String phoneNumber;
     private String password;
-    private boolean isVerified;
-    private String status;
+
+    private String confirmpassword;
+
+    private String question;
+
+    private String answer;
+    private String role ;
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
     public User() {
     }
 
-    public User(String first_name, String last_name, String email, Date birthDate, String gender, String phoneNumber, String password, boolean isVerified, String status) {
-        this.first_name = first_name;
-        this.last_name = last_name;
-        this.email = email;
-        this.birthDate = birthDate;
-        this.gender = gender;
-        this.phoneNumber = phoneNumber;
-        this.password = password;
-        this.isVerified = isVerified;
-        this.status = status;
-    }
-
-    public User(int id, String first_name, String last_name, String email, Date birthDate, String gender, String phoneNumber, String password, boolean isVerified, String status) {
-        this.id = id;
-        this.first_name = first_name;
-        this.last_name = last_name;
-        this.email = email;
-        this.birthDate = birthDate;
-        this.gender = gender;
-        this.phoneNumber = phoneNumber;
-        this.password = password;
-        this.isVerified = isVerified;
-        this.status = status;
-    }
 
     public int getId() {
         return id;
@@ -73,14 +61,6 @@ public class User {
         this.email = email;
     }
 
-    public Date getBirthDate() {
-        return birthDate;
-    }
-
-    public void setBirthDate(Date birthDate) {
-        this.birthDate = birthDate;
-    }
-
     public String getGender() {
         return gender;
     }
@@ -105,34 +85,71 @@ public class User {
         this.password = password;
     }
 
-    public boolean isVerified() {
-        return isVerified;
+    public String getConfirmpassword() {
+        return confirmpassword;
     }
 
-    public void setVerified(boolean verified) {
-        isVerified = verified;
+    public void setConfirmpassword(String confirmpassword) {
+        this.confirmpassword = confirmpassword;
     }
 
-    public String getStatus() {
-        return status;
+    public String getQuestion() {
+        return question;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
+    public void setQuestion(String question) {
+        this.question = question;
+    }
+
+    public String getAnswer() {
+        return answer;
+    }
+
+    public void setAnswer(String answer) {
+        this.answer = answer;
+    }
+
+
+
+    public User(String first_name, String last_name, String email, String gender, String phoneNumber, String password, String confirmpassword, String question, String answer, String role) {
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.email = email;
+        this.gender = gender;
+        this.phoneNumber = phoneNumber;
+        this.password = password;
+        this.confirmpassword = confirmpassword;
+        this.question = question;
+        this.answer = answer;
+        this.role=role;
+    }
+
+    public User(String first_name, String last_name, String email, String gender, String phoneNumber, String password, String confirmpassword, String question, String answer) {
+        this.first_name = first_name;
+        this.last_name = last_name;
+        this.email = email;
+        this.gender = gender;
+        this.phoneNumber = phoneNumber;
+        this.password = password;
+        this.confirmpassword = confirmpassword;
+        this.question = question;
+        this.answer = answer;
     }
 
     @Override
     public String toString() {
         return "User{" +
-                "first_name='" + first_name + '\'' +
+                "id=" + id +
+                ", first_name='" + first_name + '\'' +
                 ", last_name='" + last_name + '\'' +
                 ", email='" + email + '\'' +
-                ", birthDate=" + birthDate +
                 ", gender='" + gender + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
                 ", password='" + password + '\'' +
-                ", isVerified=" + isVerified +
-                ", status='" + status + '\'' +
+                ", confirmpassword='" + confirmpassword + '\'' +
+                ", question='" + question + '\'' +
+                ", answer='" + answer + '\'' +
+                ", role=" + role +
                 '}';
     }
 }

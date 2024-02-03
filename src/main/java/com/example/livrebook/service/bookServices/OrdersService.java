@@ -132,12 +132,9 @@ import java.util.List;
             user.setFirst_name(resultSet.getString("first_name"));
             user.setLast_name(resultSet.getString("last_name"));
             user.setEmail(resultSet.getString("email"));
-            user.setBirthDate(resultSet.getDate("birthDate"));
             user.setGender(resultSet.getString("gender"));
             user.setPhoneNumber(resultSet.getString("phoneNumber"));
             user.setPassword(resultSet.getString("password"));
-            user.setVerified(resultSet.getBoolean("isVerified"));
-            user.setStatus(resultSet.getString("status"));
             // Ajouter les autres champs de l'utilisateur
             return user;
         }

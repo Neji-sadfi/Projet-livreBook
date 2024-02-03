@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="942.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.livrebook.gui.AdminFormController">
+   <children>
+      <AnchorPane fx:id="admin" prefHeight="590.0" prefWidth="874.0">
+         <children>
+            <AnchorPane layoutX="22.0" layoutY="20.0" prefHeight="458.0" prefWidth="912.0">
+               <children>
+                  <TableView fx:id="user_tableview" layoutX="125.0" layoutY="126.0" prefHeight="458.0" prefWidth="904.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="user_IdCol" prefWidth="68.800048828125" text="User ID" />
+                        <TableColumn fx:id="user_firstnameCol" prefWidth="89.5999755859375" text="First Name" />
+                        <TableColumn fx:id="user_lastnameCol" prefWidth="96.0" text="Last Name" />
+                        <TableColumn fx:id="user_emailCol" prefWidth="135.20001220703125" text="Email" />
+                        <TableColumn fx:id="user_genderCol" prefWidth="80.800048828125" text="Gender" />
+                        <TableColumn fx:id="user_phoneNumberCol" prefWidth="107.99996948242188" text="Phone Number" />
+                        <TableColumn fx:id="user_roleCol" prefWidth="77.60003662109375" text="Role" />
+                        <TableColumn fx:id="user_passwordCol" prefWidth="108.79998779296875" text="Password" />
+                        <TableColumn fx:id="user_CpasswordCol" prefWidth="134.4000244140625" text="Confirm Password" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+            <Button fx:id="user_deletebtn" layoutX="739.0" layoutY="495.0" mnemonicParsing="false" onAction="#deleteBtn" prefHeight="34.0" prefWidth="105.0" text="Delete" />
+            <Button fx:id="user_updatebtn" layoutX="623.0" layoutY="495.0" mnemonicParsing="false" onAction="#updateUserBtn" prefHeight="34.0" prefWidth="105.0" text="Update" />
+            <Button fx:id="user_addbtn" layoutX="503.0" layoutY="495.0" mnemonicParsing="false" onAction="#addUserAddBtn" prefHeight="34.0" prefWidth="105.0" text="Add" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

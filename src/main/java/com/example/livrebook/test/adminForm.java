@@ -7,19 +7,13 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class TicketApplication  extends Application {
-    @Override
+public class adminForm extends Application {
     public void start(Stage stage) throws IOException {
-
-        FXMLLoader fxmlLoader = new FXMLLoader(TicketApplication.class.getResource("/com/example/livrebook/Event/Ticket.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(EventApplication.class.getResource("/com/example/livrebook/admin-form.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1000, 700);
-        stage.setTitle("Hello!");
-
+        stage.setTitle("Admin Form");
         stage.setScene(scene);
         stage.show();
     }
 
-    public static void main(String[] args) {
-        launch();
-    }
 }
