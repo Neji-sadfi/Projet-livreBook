@@ -1,0 +1,155 @@
+.bg-white{
+    -fx-background-color: #fff;
+    -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,.3),8,0,0,0);
+    -fx-background-radius:8px;
+}
+.bg-white:hover{
+    -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.5),8,0,0,0);
+}
+.image{
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+.transparent{
+    -fx-background-color: rgba(0,0,0,0);
+}
+.shadow{
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1),10,0,0,10);
+}
+/* Design.css */
+
+/* Apply styles to the VBox */
+VBox {
+    -fx-background-color: #f4f4f4; /* Background color */
+}
+
+/* Apply styles to the Label */
+
+
+/* Apply styles to the ScrollPane */
+ScrollPane {
+    -fx-background-color: #ffffff; /* Background color */
+}
+
+/* Apply styles to the HBox inside ScrollPane */
+#CardLayout {
+    -fx-spacing: 20; /* Spacing between children */
+}
+
+/* Apply styles to the children of HBox */
+#CardLayout > * {
+    -fx-background-color: #ffffff; /* Background color */
+    -fx-border-radius: 5; /* Border radius */
+    -fx-border-color: #ccc; /* Border color */
+    -fx-padding: 10; /* Padding */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 0); /* Drop shadow effect */
+}
+/* Design.css */
+
+/* Apply styles to the HBox */
+#box {
+    -fx-background-color: #ffffff; /* Background color */
+    -fx-background-radius: 15;
+    -fx-spacing: 15; /* Spacing between children */
+    -fx-padding: 10; /* Padding */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 0); /* Drop shadow effect */
+}
+
+
+Label {
+    -fx-text-fill: #333; /* Text color */
+}
+.attribute-label {
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+.attribute-value {
+    -fx-font-size: 14;
+}
+
+.image-view {
+    -fx-border-color: #cccccc; /* Border color */
+    -fx-border-width: 1;
+}
+
+.attribute-label {
+    -fx-font-weight: bold;
+    -fx-min-width: 100px;
+}
+
+.attribute-value {
+    -fx-min-width: 200px;
+}
+
+.image-view {
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1;
+}
+
+.VBox {
+    -fx-background-color: #B3A688; /* Updated background color */
+}
+
+#box {
+    -fx-background-color: #B3A688; /* Updated background color */
+    -fx-background-radius: 15;
+    -fx-spacing: 15; /* Spacing between children */
+    -fx-padding: 10; /* Padding */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 0); /* Drop shadow effect */
+}
+
+#imageField {
+    -fx-border-radius: 10; /* Border radius */
+}
+
+#titleLabel {
+    -fx-text-fill: #333; /* Text color */
+}
+
+#detailsButton {
+    -fx-background-color: #8a8069; /* Background color */
+    -fx-text-fill: white; /* Text color */
+    -fx-font-size: 14; /* Font size */
+    -fx-font-weight: bold; /* Font weight */
+    -fx-padding: 8 15; /* Padding */
+    -fx-border-radius: 5; /* Border radius */
+}
+
+#detailsButton:hover {
+    -fx-background-color: #615a4a; /* Hover background color */
+}
+
+#TVId {
+    -fx-background-color: #f4f4f4; /* Background color */
+}
+
+#colTitle, #colDesc, #colDate, #colImage {
+    -fx-text-fill: #333; /* Text color */
+}
+
+Button {
+    -fx-background-color: #8a8069; /* Background color */
+    -fx-text-fill: white; /* Text color */
+    -fx-font-size: 14; /* Font size */
+    -fx-font-weight: bold; /* Font weight */
+    -fx-padding: 8 15; /* Padding */
+    -fx-border-radius: 5; /* Border radius */
+}
+
+Button:hover {
+    -fx-background-color: #615a4a; /* Hover background color */
+}
+
+#ParentID {
+    -fx-background-color: #B3A688; /* Background color */
+}
+
+
+HBox {
+    -fx-spacing: 10; /* Spacing between children */
+}
+
+
+

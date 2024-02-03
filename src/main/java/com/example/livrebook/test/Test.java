@@ -12,7 +12,7 @@ public class Test  extends Application {
         @Override
         public void start(Stage stage) throws IOException {
 
-            FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/com/example/livrebook/Event/client_event.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(Test.class.getResource("/com/example/livrebook/Event/client_event.fxml"));
             Scene scene = new Scene(fxmlLoader.load(), 900, 700);
             stage.setTitle("Hello!");
             stage.setScene(scene);
