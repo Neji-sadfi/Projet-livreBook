@@ -31,9 +31,14 @@ import java.util.List;
         public boolean update(Orders order) throws SQLException {
             String req = "UPDATE orders SET orderStatus = '" + order.getOrderStatus() +
                     "' WHERE id = " + order.getId();
+            String req1 = "INSERT INTO livraison ( status , adress, orderId, pending) " +
+                    "VALUES ('not delivred','15 Rue Med Ali Ariana','" + order.getId() +"',false)" ;
 
-           Statement st = cnx.createStatement();
-                return st.executeUpdate(req) == 1;
+
+            Statement st = cnx.createStatement();
+            st.executeUpdate(req1);
+            return st.executeUpdate(req) == -1;
+
 
         }
 
