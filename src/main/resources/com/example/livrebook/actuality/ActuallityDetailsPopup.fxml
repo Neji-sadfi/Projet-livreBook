@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.Button?>
+
+<?import java.net.URL?>
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.livrebook.gui.actuality.ActualityDetailsPopupController"
+      prefWidth="400" prefHeight="300"
+      style="-fx-background-color: #FFFFFF; -fx-padding: 20; -fx-spacing: 10;">
+    <stylesheets>
+        <URL value="@styles.css" />
+    </stylesheets>
+    <Label fx:id="titleLabel" text="Title"
+           style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+
+    <ImageView fx:id="imageView" fitWidth="200" fitHeight="200" preserveRatio="true"
+               style="-fx-border-color: #CCCCCC; -fx-border-width: 1px;" />
+
+    <Label fx:id="descriptionLabel" text="Description"
+           style="-fx-font-size: 14px; -fx-text-fill: #333333;" />
+
+    <Button fx:id="commentButton" text="Add Comment" onAction="#onActionButtonClicked"/>
+</VBox>

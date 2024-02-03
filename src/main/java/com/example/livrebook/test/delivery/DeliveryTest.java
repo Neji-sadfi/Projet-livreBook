@@ -1,4 +1,4 @@
-package com.example.livrebook.test;
+package com.example.livrebook.test.delivery;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -7,12 +7,12 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class DeliveryTest extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/com/example/livrebook/user-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 400, 700);
-        stage.setTitle("Sign up");
+        FXMLLoader fxmlLoader = new FXMLLoader(DeliveryTest.class.getResource("/com/example/livrebook/Delivery/Delivery.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 1000, 700);
+        stage.setTitle("LiverBook");
         stage.setScene(scene);
         stage.show();
     }

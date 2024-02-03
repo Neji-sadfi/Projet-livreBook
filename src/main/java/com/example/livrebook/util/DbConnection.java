@@ -9,23 +9,26 @@ public class DbConnection {
     private String password = "";
     private String url = "jdbc:mysql://localhost:3306/livrebook";
 
-    public static DbConnection instance;
+    private static DbConnection instance;
     private Connection cnx;
 
     private DbConnection() {
         try {
             cnx = DriverManager.getConnection(url, user, password);
-            System.out.println("Connection établie !");
+            System.out.println("Connection established!");
         } catch (SQLException e) {
-            System.err.println(e.getMessage());
-        };
+            System.err.println("Error establishing connection: " + e.getMessage());
+        }
     }
 
-    public static DbConnection getInstance(){
-        return instance == null ? new DbConnection() : instance;
+    public static synchronized DbConnection getInstance() {
+        if (instance == null) {
+            instance = new DbConnection();
+        }
+        return instance;
     }
 
-    public Connection getCnx(){
+    public Connection getCnx() {
         return cnx;
     }
 }

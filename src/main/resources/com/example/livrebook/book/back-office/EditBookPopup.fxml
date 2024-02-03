@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="684.0" prefWidth="298.0" stylesheets="@../MainCssFile.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.livrebook.gui.book.backOffice.EditBookPopupController">
+
+    <VBox alignment="CENTER" layoutX="18.0" layoutY="13.0" spacing="10" styleClass="white-bg shadow">
+        <Label prefHeight="18.0" prefWidth="78.0" styleClass="header-label" text="Modifier livre" />
+        <Label layoutX="62.0" layoutY="25.0" prefHeight="20.0" prefWidth="46.0" text="Titre :">
+        </Label>
+        <TextField fx:id="titleField" promptText="Titre" />
+        <Label layoutX="68.0" layoutY="70.0" prefHeight="20.0" prefWidth="58.0" text="Auteur:">
+        </Label>
+        <TextField fx:id="authorField" prefHeight="26.0" prefWidth="102.0" promptText="Auteur" />
+        <Label layoutX="56.0" layoutY="112.0" prefHeight="20.0" prefWidth="62.0" text="Catégorie">
+        </Label>
+
+        <ComboBox fx:id="categoryComboBox" prefHeight="26.0" prefWidth="253.0" promptText="Catégorie" />
+        <Label layoutX="56.0" layoutY="112.0" prefHeight="20.0" prefWidth="62.0" text="Langue">
+        </Label>
+
+        <ComboBox fx:id="languageComboBox" prefHeight="26.0" prefWidth="252.0" promptText="Langue" />
+        <Label layoutX="359.0" layoutY="60.0" prefHeight="20.0" prefWidth="116.0" text="Date de publication:">
+
+        </Label>
+        <DatePicker fx:id="publicationDateField" prefHeight="26.0" prefWidth="254.0" promptText="Date de publication" />
+        <Label layoutX="359.0" layoutY="60.0" prefHeight="20.0" prefWidth="46.0" text="Prix Dt:">
+
+        </Label>
+        <TextField fx:id="priceField" promptText="Prix" />
+        <Label layoutX="359.0" layoutY="60.0" prefHeight="20.0" prefWidth="62.0" text="Quantité:">
+
+        </Label>
+        <TextField fx:id="quantityField" promptText="Quantité" />
+        <Label layoutX="359.0" layoutY="60.0" prefHeight="20.0" prefWidth="66.0" text="Résumé:">
+
+        </Label>
+        <TextField fx:id="summaryField" promptText="Résumé" />
+        <Label layoutX="359.0" layoutY="60.0" prefHeight="20.0" prefWidth="42.0" text="Photo:">
+
+        </Label>
+        <HBox spacing="10">
+            <TextField fx:id="pictureField" disable="true" promptText="Image" />
+            <Button onAction="#importImage" prefHeight="26.0" prefWidth="102.0" styleClass="action-button" text="Importer Image" />
+        </HBox>
+        <Button onAction="#saveChanges" styleClass="action-button" text="Enregistrer" />
+
+    </VBox>
+
+</AnchorPane>

@@ -1,25 +1,29 @@
-package com.example.livrebook.model.livraison;
+package com.example.livrebook.model.delivery;
 
-public class Livraison {
+public class Delivery {
     private int id;
     private String status;
     private String adress;
     private int orderId;
+    private boolean pending = false;
 
-    public Livraison() {
+    public Delivery() {
     }
 
-    public Livraison(int id, String status, String adress, int orderId) {
+    public Delivery(int id, String status, String adress, int orderId , boolean pending) {
         this.id = id;
         this.status = status;
         this.adress = adress;
         this.orderId = orderId;
+        this.pending = pending;
     }
 
-    public Livraison(String status, String adress, int orderId) {
+    public Delivery(String status, String adress, int orderId, boolean pending) {
         this.status = status;
         this.adress = adress;
         this.orderId = orderId;
+        this.pending = pending;
+
     }
 
     public int getId() {
@@ -54,13 +58,19 @@ public class Livraison {
         this.orderId = orderId;
     }
 
+    public boolean isPending() {
+        return pending;
+    }
+
+    public void setPending(boolean pending) {
+        this.pending = pending;
+    }
+
     @Override
     public String toString() {
-        return "Livraison{" +
-                "id=" + id +
-                ", status='" + status + '\'' +
+        return
+                "Status='" + status + '\'' +
                 ", adress='" + adress + '\'' +
-                ", orderId=" + orderId +
-                '}';
+                ", orderId=" + orderId ;
     }
 }

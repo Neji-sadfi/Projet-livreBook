@@ -1,6 +1,6 @@
 package com.example.livrebook.model.actuality;
 
-import java.util.Date;
+import java.sql.Date;
 
 public class Actuality {
     private int id;
@@ -8,6 +8,8 @@ public class Actuality {
     private String description;
     private Date date;
     private Date publicationDate;
+
+    private String picture;
 
     public Actuality(int id, String title, String description, Date date, Date publicationDate) {
         this.id = id;
@@ -22,6 +24,31 @@ public class Actuality {
         this.description = description;
         this.date = date;
         this.publicationDate = publicationDate;
+    }
+
+    public Actuality(String title, String description, Date date) {
+        this.title = title;
+        this.description = description;
+        this.date = date;
+    }
+
+
+    public Actuality(int id) {
+        this.id = id;
+    }
+
+    public Actuality(int id, String title, String description, Date date) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+        this.date = date;
+    }
+
+    public Actuality(String title, String description, Date date, String picture) {
+        this.title = title;
+        this.description = description;
+        this.date = date;
+        this.picture = picture;
     }
 
     public Actuality() {
@@ -59,6 +86,14 @@ public class Actuality {
         this.date = date;
     }
 
+    public String getPicture() {
+        return picture;
+    }
+
+    public void setPicture(String image) {
+        this.picture = image;
+    }
+
     public Date getPublicationDate() {
         return publicationDate;
     }
@@ -77,4 +112,5 @@ public class Actuality {
                 ", publicationDate=" + publicationDate +
                 '}';
     }
+
 }

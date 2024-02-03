@@ -157,4 +157,10 @@ public class UserService implements CRUD<User> {
         return users;
     }
 
+    @Override
+    public List<User> selectWherePending() throws SQLException {
+        return null;
+    }
+
+
 }

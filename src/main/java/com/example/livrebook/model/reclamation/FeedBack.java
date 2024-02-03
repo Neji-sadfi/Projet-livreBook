@@ -2,26 +2,22 @@ package com.example.livrebook.model.reclamation;
 
 public class FeedBack {
     private int id;
-    private String message;
-    private int userId;
-    private int bookId;
+    private String nom;
+    private String email;
+    private String description;
+
+    public FeedBack(int id, String nom, String email, String description) {
+        this.id = id;
+        this.nom = nom;
+        this.email = email;
+        this.description = description;
+    }
 
     public FeedBack() {
+
     }
 
-    public FeedBack(int id, String message, int userId, int bookId) {
-        this.id = id;
-        this.message = message;
-        this.userId = userId;
-        this.bookId = bookId;
-    }
-
-    public FeedBack(String message, int userId, int bookId) {
-        this.message = message;
-        this.userId = userId;
-        this.bookId = bookId;
-    }
-
+    // Getters et Setters
     public int getId() {
         return id;
     }
@@ -30,37 +26,39 @@ public class FeedBack {
         this.id = id;
     }
 
-    public String getMessage() {
-        return message;
+    public String getNom() {
+        return nom;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public void setNom(String nom) {
+        this.nom = nom;
     }
 
-    public int getUserId() {
-        return userId;
+    public String getEmail() {
+        return email;
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public int getBookId() {
-        return bookId;
+    public String getDescription() {
+        return description;
     }
 
-    public void setBookId(int bookId) {
-        this.bookId = bookId;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
+    // Méthode pour afficher les détails du feedback
     @Override
     public String toString() {
         return "FeedBack{" +
                 "id=" + id +
-                ", message='" + message + '\'' +
-                ", userId=" + userId +
-                ", bookId=" + bookId +
+                ", nom='" + nom + '\'' +
+                ", email='" + email + '\'' +
+                ", description='" + description + '\'' +
                 '}';
     }
+
 }
