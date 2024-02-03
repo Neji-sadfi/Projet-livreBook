@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.livrebook.gui.book.frontOffice.OrderClientController">
+    <children>
+        <AnchorPane fx:id="main_pane" layoutX="116.0" layoutY="29.0" prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <AnchorPane layoutX="9.0" layoutY="14.0" prefHeight="700.0" prefWidth="1000.0" stylesheets="@../MainCssFile.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <children>
+                        <TableView fx:id="orderTableView" layoutX="24.0" layoutY="64.0" prefHeight="529.0" prefWidth="933.0" styleClass="table-view" AnchorPane.bottomAnchor="107.20000000000005" AnchorPane.leftAnchor="24.0" AnchorPane.rightAnchor="43.19999999999993" AnchorPane.topAnchor="64.0">
+                            <columns>
+                                <!-- Ajoutez les colonnes dont vous avez besoin -->
+                                <TableColumn fx:id="orderNumberColumn" prefWidth="140.80001139640808" text="Order Number" />
+                                <TableColumn fx:id="dateColumn" prefWidth="189.60006713867188" text="Date" />
+                                <TableColumn fx:id="statusColumn" prefWidth="211.199951171875" text="Status" />
+                                <TableColumn fx:id="paymentMethodColumn" prefWidth="240.0" text="Payment Method" />
+                                <TableColumn fx:id="totalPriceColumn" prefWidth="144.0001220703125" text="Total Price" />
+                            </columns>
+                        </TableView>
+                        <Button fx:id="cancel_btn" layoutX="774.0" layoutY="615.0" mnemonicParsing="false" onAction="#cancelOrder" prefHeight="43.0" prefWidth="183.0" styleClass="Deletebtn" stylesheets="@../MainCssFile.css" text="Annuler la commande" />
+                    </children>
+                </AnchorPane>
+            <Label layoutX="24.0" layoutY="10.0" prefHeight="30.0" prefWidth="263.0" text="Mes Commandes">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

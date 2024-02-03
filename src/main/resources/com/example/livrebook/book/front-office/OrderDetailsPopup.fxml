@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="474.0" prefWidth="355.0" stylesheets="@../MainCssFile.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.livrebook.gui.book.frontOffice.OrderDetailsPopupController">
+    <Label fx:id="orderNumberLabel" styleClass="info-label">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+    <Label fx:id="orderDateLabel" styleClass="info-label">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+    <Label fx:id="orderStatusLabel" styleClass="info-label">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+    <Label fx:id="paymentMethodLabel" styleClass="info-label">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+    <Label fx:id="totalPriceLabel" styleClass="info-label">
+        <font>
+            <Font size="18.0" />
+        </font>
+    </Label>
+    <Label  styleClass="info-label">
+        <font>
+            <Font size="18.0" />
+        </font>
+        -----------------------------------------------
+    </Label>
+    <VBox fx:id="booksDetailsVBox" />
+
+    <Button onAction="#closePopup" text="OK" />
+</VBox>

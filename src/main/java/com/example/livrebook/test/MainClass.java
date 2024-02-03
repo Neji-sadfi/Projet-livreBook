@@ -1,12 +1,15 @@
 package com.example.livrebook.test;
 
 
+import com.example.livrebook.model.book.Book;
+import com.example.livrebook.service.bookServices.BookService;
 import com.example.livrebook.service.userServices.UserService;
 import com.example.livrebook.service.livraisonServices.LivraisonService;
 
 
 import java.sql.Date;
 import java.sql.SQLException;
+import java.util.List;
 
 public class MainClass {
     public static void main(String[] args) {
@@ -30,5 +33,16 @@ public class MainClass {
 //        } catch (SQLException e) {
 //            throw new RuntimeException(e);
 //        }
+
+        List<Book> lb;
+        BookService bks = new BookService();
+        try {
+            lb = bks.selectAll();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        for (Book bk: lb){
+            System.out.println(bk.toString());
+        }
     }
 }

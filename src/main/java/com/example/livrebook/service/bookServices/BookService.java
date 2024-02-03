@@ -5,10 +5,8 @@ import com.example.livrebook.model.user.User;
 import com.example.livrebook.service.CRUD;
 import com.example.livrebook.util.DbConnection;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -83,5 +81,119 @@ public class BookService implements CRUD<Book> {
 
         return books;
     }
+    public Book selectById(int id) throws SQLException {
+        String req = "SELECT * FROM book WHERE id ="+id;
+        Statement st = cnx.createStatement();
+        ResultSet resultSet = st.executeQuery(req);
+         Book book = new Book();
+            book.setId(resultSet.getInt("id"));
+            book.setTitle(resultSet.getString("title"));
+            book.setAuthor(resultSet.getString("author"));
+            book.setCategory(resultSet.getString("category"));
+            book.setLanguage(resultSet.getString("language"));
+            book.setNbPages(resultSet.getInt("nbPages"));
+            book.setQuantity(resultSet.getInt("quantity"));
+            book.setPrice(resultSet.getInt("price"));
+            book.setSummary(resultSet.getString("summary"));
+            book.setDatePublication(resultSet.getDate("datePublication"));
+            book.setPicture(resultSet.getString("picture"));
 
+
+        return book;
+    }
+    public List<Book> searchBooks(String title, String author, String category, String language, LocalDate date, Integer price) throws SQLException {
+        // La requête SQL paramétrée
+        String query = "SELECT * FROM book WHERE " +
+                "(? IS NULL OR title LIKE ?) AND " +
+                "(? IS NULL OR author LIKE ?) AND " +
+                "(? IS NULL OR category LIKE ?) AND " +
+                "(? IS NULL OR language LIKE ?) AND " +
+                "(? IS NULL OR datePublication = ?) AND " +
+                "(? IS NULL OR price = ?)";
+
+
+
+        try (PreparedStatement statement = cnx.prepareStatement(query)) {
+            // Paramétrage des valeurs
+            statement.setObject(1, (title != null) ? "%" + title + "%" : null);
+            statement.setObject(2, (title != null) ? "%" + title + "%" : null);
+            statement.setObject(3, (author != null) ? "%" + author + "%" : null);
+            statement.setObject(4, (author != null) ? "%" + author + "%" : null);
+            statement.setObject(5, (category != null) ? "%" + category + "%" : null);
+            statement.setObject(6, (category != null) ? "%" + category + "%" : null);
+            statement.setObject(7, (language != null) ? "%" + language + "%" : null);
+            statement.setObject(8, (language != null) ? "%" + language + "%" : null);
+            statement.setObject(9, (date != null) ? Date.valueOf(date) : null);
+            statement.setObject(10, (date != null) ? Date.valueOf(date) : null);
+            statement.setObject(11, (price != null) ? price : null);
+            statement.setObject(12, (price != null) ? price : null);
+
+
+
+
+            // Exécution de la requête
+            try (ResultSet resultSet = statement.executeQuery()) {
+
+                List<Book> books = new ArrayList<>();
+                while (resultSet.next()) {
+                    Book book = new Book();
+                    // Initialisez les propriétés du livre à partir du résultat de la requête
+                    book.setId(resultSet.getInt("id"));
+                    book.setAuthor(resultSet.getString("author"));
+                    book.setCategory(resultSet.getString("category"));
+                    book.setDatePublication(resultSet.getDate("datePublication"));
+                    book.setLanguage(resultSet.getString("language"));
+                    book.setPrice(resultSet.getInt("price"));
+                    book.setQuantity(resultSet.getInt("quantity"));
+                    book.setSummary(resultSet.getString("summary"));
+                    book.setTitle(resultSet.getString("title"));
+                    book.setPicture(resultSet.getString("picture"));
+
+                    books.add(book);
+                }
+
+                return books;
+            }
+        }
+    }
+    public List<Book> searchBooksClient(String title, String category, String language) throws SQLException {
+        // The parameterized SQL query with OR conditions
+        String query = "SELECT * FROM book WHERE " +
+                "(? IS NULL OR title LIKE ?) AND " +
+                "(? IS NULL OR category LIKE ?) AND " +
+                "(? IS NULL OR language LIKE ?)";
+
+        try (PreparedStatement statement = cnx.prepareStatement(query)) {
+            // Set parameters for the query
+            statement.setObject(1, (title != null) ? "%" + title + "%" : null);
+            statement.setObject(2, (title != null) ? "%" + title + "%" : null);
+            statement.setObject(3, (category != null) ? "%" + category + "%" : null);
+            statement.setObject(4, (category != null) ? "%" + category + "%" : null);
+            statement.setObject(5, (language != null) ? "%" + language + "%" : null);
+            statement.setObject(6, (language != null) ? "%" + language + "%" : null);
+
+            // Execute the query
+            try (ResultSet resultSet = statement.executeQuery()) {
+                List<Book> books = new ArrayList<>();
+                while (resultSet.next()) {
+                    Book book = new Book();
+                    // Initialize book properties from the query result
+                    book.setId(resultSet.getInt("id"));
+                    book.setAuthor(resultSet.getString("author"));
+                    book.setCategory(resultSet.getString("category"));
+                    book.setDatePublication(resultSet.getDate("datePublication"));
+                    book.setLanguage(resultSet.getString("language"));
+                    book.setPrice(resultSet.getInt("price"));
+                    book.setQuantity(resultSet.getInt("quantity"));
+                    book.setSummary(resultSet.getString("summary"));
+                    book.setTitle(resultSet.getString("title"));
+                    book.setPicture(resultSet.getString("picture"));
+
+                    books.add(book);
+                }
+                System.out.println(books);
+                return books;
+            }
+        }
+    }
 }
