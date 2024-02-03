@@ -22,9 +22,9 @@ public class ActualityService implements CRUD<Actuality> {
     }
     @Override
     public boolean insert(Actuality actuality) throws SQLException {
-        String req = "INSERT INTO actuality (title, description, date) " +
+        String req = "INSERT INTO actuality (title, description, date,picture) " +
                 "VALUES ('" + actuality.getTitle() + "','" + actuality.getDescription() + "','" +
-                actuality.getDate()+ "')";
+                actuality.getDate()+"','" +actuality.getPicture()+ "')";
 
 
         Statement st = cnx.createStatement();
@@ -59,7 +59,7 @@ public class ActualityService implements CRUD<Actuality> {
     @Override
     public List<Actuality> selectAll() throws SQLException {
         List<Actuality> actualities = new ArrayList<Actuality>();
-        String req = "SELECT * FROM 'actuality'";
+        String req = "SELECT * FROM actuality";
         Statement st = cnx.createStatement();
         ResultSet resultSet = st.executeQuery(req);
         while(resultSet.next()){
@@ -68,6 +68,7 @@ public class ActualityService implements CRUD<Actuality> {
             actu.setTitle(resultSet.getString(2));
             actu.setDescription(resultSet.getString(3));
             actu.setDate(resultSet.getDate(4));
+            actu.setPicture(resultSet.getString(6));
 
             actualities.add(actu);
         }

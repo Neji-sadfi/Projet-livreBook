@@ -10,9 +10,9 @@ import java.io.IOException;
 public class ActualityAdminView extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-            FXMLLoader fxmlLoader = new FXMLLoader(ActualityAdminView.class.getResource("/com/example/livrebook/actuality/Actuality-view.fxml"));
-            Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-            stage.setTitle("Ajout actualité");
+            FXMLLoader fxmlLoader = new FXMLLoader(ActualityAdminView.class.getResource("/com/example/livrebook/actuality/ActualityAdmin-view.fxml"));
+            Scene scene = new Scene(fxmlLoader.load(), 1000, 700);
+            stage.setTitle("Gestion Actualité");
             stage.setScene(scene);
             stage.show();
 

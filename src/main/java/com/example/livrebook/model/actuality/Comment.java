@@ -18,6 +18,10 @@ public class Comment {
         this.userId = userId;
     }
 
+    public Comment(String description) {
+        this.description = description;
+    }
+
     public int getId() {
         return id;
     }
