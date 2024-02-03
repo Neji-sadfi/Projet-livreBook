@@ -1,7 +1,6 @@
 package com.example.livrebook.model.event;
 
 import java.util.Date;
-import java.util.List;
 
 public class Event {
     private int id ;
@@ -11,30 +10,40 @@ public class Event {
     private String picture;
     private Date startDate;
     private Date endDate;
-    private List<Integer> idTickets;
 
-    public Event(int id, String title, String adresse, String description, String picture, Date startDate, Date endDate, List<Integer> idTickets) {
-        this.id = id;
+    private int nb_ticket;
+
+
+    public Event(String title, String adresse, String description, String picture, Date startDate, Date endDate, int nb_ticket) {
+        this.title = title;
+        this.adresse = adresse;
+        this.description = description;
+        this.picture = picture;
+        this.startDate = setYearTo1900(startDate);
+        this.endDate = setYearTo1900(endDate);
+       this.nb_ticket=nb_ticket;
+    }
+
+    private Date setYearTo1900(Date date) {
+        if (date != null) {
+            date.setYear(date.getYear() - 1900);
+        }
+        return date;
+    }
+
+    public Event(int id ,String title, String adresse, String description, String picture, Date startDate, Date endDate) {
+        this.id=id;
         this.title = title;
         this.adresse = adresse;
         this.description = description;
         this.picture = picture;
         this.startDate = startDate;
         this.endDate = endDate;
-        this.idTickets = idTickets;
+
     }
 
     public Event() {
-    }
 
-    public Event(String title, String adresse, String description, String picture, Date startDate, Date endDate, List<Integer> idTickets) {
-        this.title = title;
-        this.adresse = adresse;
-        this.description = description;
-        this.picture = picture;
-        this.startDate = startDate;
-        this.endDate = endDate;
-        this.idTickets = idTickets;
     }
 
     public int getId() {
@@ -93,12 +102,14 @@ public class Event {
         this.endDate = endDate;
     }
 
-    public List<Integer> getIdTickets() {
-        return idTickets;
+
+
+    public int getNb_ticket() {
+        return nb_ticket;
     }
 
-    public void setIdTickets(List<Integer> idTickets) {
-        this.idTickets = idTickets;
+    public void setNb_ticket(int nb_ticket) {
+        this.nb_ticket = nb_ticket;
     }
 
     @Override
@@ -111,7 +122,9 @@ public class Event {
                 ", picture='" + picture + '\'' +
                 ", startDate=" + startDate +
                 ", endDate=" + endDate +
-                ", idTickets=" + idTickets +
+                ", nombre de Tickets=" + nb_ticket +
                 '}';
     }
+
+
 }

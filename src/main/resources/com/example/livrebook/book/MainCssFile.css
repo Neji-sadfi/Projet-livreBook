@@ -1,0 +1,151 @@
+.nav-form{
+    -fx-background-color: linear-gradient(to bottom right, #FFEDC2, #8A8069);
+}
+.header{
+    -fx-background-color: linear-gradient(to bottom right, #FFEDC2, #615A4A);
+}
+.nav-btn{
+    -fx-background-color: transparent;
+    -fx-border-color: #fff;
+    -fx-border-width: .4px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size:14px;
+}
+.nav-btn:hover{
+    -fx-background-color: #fff;
+    -fx-text-fill: #000;
+}
+
+.logout{
+    -fx-background-color: #FFEDC2;
+    -fx-padding: 5px;
+    -fx-cursor: hand;
+    -fx-background-radius: 50px;
+}
+.logout:hover{
+    -fx-background-color: #DBCCA7;
+}
+
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5,0,0,0);
+}
+
+.white-bg{
+    -fx-background-color: #fff;
+}
+
+.radius{
+    -fx-background-radius: 8px;
+}
+
+.transparent{
+    -fx-background-color: transparent;
+}
+
+.table-view{
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-border-color: linear-gradient(to bottom right, #FFEDC2, #8A8069);
+    -fx-border-radius: 5px;
+    -fx-border-width: 1.5px;
+}
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom right, #FFEDC2, #615A4A);
+    -fx-background-radius: 5px 5px 0 0;
+    -fx-background-insets: 0 0 0 0;
+}
+.table-view .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size: 40px;
+}
+.table-view .column-header .label{
+    -fx-text-fill: #fff;
+}
+
+.btn{
+    -fx-background-color: linear-gradient(to bottom right, #FFEDC2, #8A8069);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+}
+.btn:hover{
+    -fx-background-color: linear-gradient(to bottom right, #FFEDC2, #615A4A);
+}
+.Addbtn{
+    -fx-background-color: linear-gradient(to bottom right, #cfffc2, #698a6f);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+}
+.Addbtn:hover{
+    -fx-background-color: linear-gradient(to bottom right, #85ff6f, #3c643e);
+}
+.Deletebtn{
+    -fx-background-color: linear-gradient(to bottom right, #fc8989, #8c5a5e);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+}
+.Deletebtn:hover{
+    -fx-background-color: linear-gradient(to bottom right, #fa8383, #723838);
+}
+.Updatebtn{
+    -fx-background-color: linear-gradient(to bottom right, #faee83, #93915c);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+}
+.Updatebtn:hover{
+    -fx-background-color: linear-gradient(to bottom right, #f8f39d, #646440);
+}
+
+.label {
+    -fx-font-size: 14.0;
+}
+.info-label {
+    -fx-font-size: 18.0;
+    -fx-text-alignment: center;
+}
+
+.image-view {
+    -fx-fit-width: 150; /* Adjust the width as needed */
+    -fx-fit-height: 150; /* Adjust the height as needed */
+    -fx-preserver-ratio: true;
+}
+
+.vbox {
+    -fx-pref-height: 500.0;
+    -fx-pref-width: 400.0;
+}
+
+.button {
+    -fx-font-size: 18.0;}
+.button {
+    -fx-font-size: 14.0;
+}
+
+.vbox {
+    -fx-pref-height: 407.0;
+    -fx-pref-width: 285.0;
+}
+
+#booksDetailsVBox {
+    /* Add specific styles for the booksDetailsVBox if needed */
+}
+
+.image-view {
+    -fx-fit-width: 100; /* Set the width as per your requirement */
+    -fx-preserve-ratio: true;
+}
+
+#OKButton {
+    -fx-background-color: linear-gradient(to bottom right, #85ff6f, #3c643e);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+}
+
+#OKButton:hover {
+    -fx-background-color: linear-gradient(to bottom right, #85ff6f, #3c643e);
+}

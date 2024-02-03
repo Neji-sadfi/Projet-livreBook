@@ -3,23 +3,17 @@ package com.example.livrebook.model.book;
 public class OrderLine {
     private int id;
     private int idOrder;
-    private int idUser;
-    private int quantityBookId;
+    private int quantity;
+    private int bookId;
 
     public OrderLine() {
     }
 
-    public OrderLine(int id, int idOrder, int idUser, int quantityBookId) {
+    public OrderLine(int id, int idOrder, int quantity, int bookId) {
         this.id = id;
         this.idOrder = idOrder;
-        this.idUser = idUser;
-        this.quantityBookId = quantityBookId;
-    }
-
-    public OrderLine(int idOrder, int idUser, int quantityBookId) {
-        this.idOrder = idOrder;
-        this.idUser = idUser;
-        this.quantityBookId = quantityBookId;
+        this.quantity = quantity;
+        this.bookId = bookId;
     }
 
     public int getId() {
@@ -38,20 +32,20 @@ public class OrderLine {
         this.idOrder = idOrder;
     }
 
-    public int getIdUser() {
-        return idUser;
+    public int getQuantity() {
+        return quantity;
     }
 
-    public void setIdUser(int idUser) {
-        this.idUser = idUser;
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 
-    public int getQuantityBookId() {
-        return quantityBookId;
+    public int getBookId() {
+        return bookId;
     }
 
-    public void setQuantityBookId(int quantityBookId) {
-        this.quantityBookId = quantityBookId;
+    public void setBookId(int bookId) {
+        this.bookId = bookId;
     }
 
     @Override
@@ -59,8 +53,8 @@ public class OrderLine {
         return "OrderLine{" +
                 "id=" + id +
                 ", idOrder=" + idOrder +
-                ", idUser=" + idUser +
-                ", quantityBookId=" + quantityBookId +
+                ", quantity=" + quantity +
+                ", bookId=" + bookId +
                 '}';
     }
 }
