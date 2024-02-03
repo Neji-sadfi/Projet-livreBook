@@ -7,11 +7,11 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-public class SideBareApplication extends Application {
+public class backOfficeTest extends Application {
     double x,y = 0;
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/com/example/livrebook/Side-bare.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/com/example/livrebook/Backoffice.fxml"));
         primaryStage.initStyle(StageStyle.UNDECORATED);
 
         root.setOnMousePressed(event -> {
